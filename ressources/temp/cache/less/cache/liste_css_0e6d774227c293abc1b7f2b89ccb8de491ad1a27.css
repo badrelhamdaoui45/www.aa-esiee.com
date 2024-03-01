@@ -1,0 +1,7 @@
+.article .company {
+  font-weight: bold;
+}
+.article .poste {
+  font-weight: normal !important;
+  font-style: italic;
+}

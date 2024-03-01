@@ -1,0 +1,2276 @@
+#zoneAnnuaire_layout {
+  background: white;
+  padding: 15px;
+  /*** RESULTS ***/
+  /*** OFFER DETAILS ***/
+  /**** SAVED OFFERS ****/
+  /**** COMPANY DETAILS ****/
+  /**** FORM ****/
+  /* tm */
+  padding: 0;
+}
+@media (max-width: 575.98px) {
+  #zoneAnnuaire_layout {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+#zoneAnnuaire_layout *::-webkit-input-placeholder {
+  color: #bbbbbb;
+}
+#zoneAnnuaire_layout *:-moz-placeholder {
+  /* FF 4-18 */
+  color: #bbbbbb;
+}
+#zoneAnnuaire_layout *::-moz-placeholder {
+  /* FF 19+ */
+  color: #bbbbbb;
+}
+#zoneAnnuaire_layout *:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #bbbbbb;
+}
+#zoneAnnuaire_layout .bt-color1,
+#zoneAnnuaire_layout .bt-color2 {
+  display: inline-flex;
+  padding: 15px 5px 10px 5px;
+  background: #183354;
+  border: 2px solid;
+  border-color: #183354;
+  color: #fff;
+  min-width: 50px;
+  overflow: hidden;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+#zoneAnnuaire_layout .bt-color1 i.fas,
+#zoneAnnuaire_layout .bt-color2 i.fas {
+  float: left;
+  font-size: 30px;
+  margin-top: -6px;
+  margin-left: 3px;
+}
+#zoneAnnuaire_layout .bt-color1 span,
+#zoneAnnuaire_layout .bt-color2 span {
+  visibility: visible;
+  opacity: 0;
+  margin-right: -150px;
+  -webkit-transition: margin 0.4s ease-out, opacity 0s ease-in-out;
+  transition: margin 0.4s ease-out, opacity 0s ease-in-out;
+}
+#zoneAnnuaire_layout .bt-color2 {
+  background: #ff5640;
+  border-color: #ff5640;
+}
+#zoneAnnuaire_layout .bt-color1:hover,
+#zoneAnnuaire_layout .bt-color1.active,
+#zoneAnnuaire_layout .bt-color1:focus,
+#zoneAnnuaire_layout .bt-color2:hover,
+#zoneAnnuaire_layout .bt-color2.active,
+#zoneAnnuaire_layout .bt-color2:focus {
+  color: #183354;
+  background: #fff;
+  text-decoration: none;
+}
+#zoneAnnuaire_layout .bt-color1:hover span,
+#zoneAnnuaire_layout .bt-color1.active span,
+#zoneAnnuaire_layout .bt-color1:focus span,
+#zoneAnnuaire_layout .bt-color2:hover span,
+#zoneAnnuaire_layout .bt-color2.active span,
+#zoneAnnuaire_layout .bt-color2:focus span {
+  visibility: visible;
+  opacity: 1;
+  margin-left: 8px;
+  margin-right: 4px;
+  -webkit-transition: margin 0.4s ease-out, opacity 1s ease-in-out;
+  transition: margin 0.4s ease-out, opacity 1s ease-in-out;
+}
+#zoneAnnuaire_layout .bt-color2:hover,
+#zoneAnnuaire_layout .bt-color2.active,
+#zoneAnnuaire_layout .bt-color2:focus {
+  color: #ff5640;
+}
+#zoneAnnuaire_layout #zoneAnnuaire_layout .quick_search .btmaj {
+  height: 50px;
+}
+#zoneAnnuaire_layout #zoneAnnuaire_layout .quick_search input[type="text"] {
+  width: calc(-4%);
+  margin-right: 50px;
+}
+#zoneAnnuaire_layout .bt-color1.btsearch {
+  padding: 0 !important;
+  text-align: center;
+  line-height: 48px;
+  height: 50px;
+}
+@media (max-width: 620px) {
+  #zoneAnnuaire_layout .bt-color1.btsearch {
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    text-align: center;
+  }
+}
+#zoneAnnuaire_layout .bt-color1.btsearch i.fas {
+  padding: 0;
+  font-size: 28px;
+  width: 50px;
+  margin: 0;
+  line-height: 48px;
+}
+#zoneAnnuaire_layout .bt-large {
+  padding-left: 10px;
+  padding-right: 50px;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .bt-large {
+    padding-right: 5px;
+  }
+}
+#zoneAnnuaire_layout .bt-large span {
+  float: left;
+  margin-left: 12px;
+  font-size: 14px;
+  margin-top: 13px;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .bt-large span {
+    display: none;
+  }
+}
+#zoneAnnuaire_layout .bt-big {
+  position: relative;
+  background: #183354;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #183354;
+  padding: 20px;
+  width: 280px;
+  margin-bottom: 10px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+#zoneAnnuaire_layout .bt-big i.fas {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  font-size: 32px;
+  padding-top: 14px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+#zoneAnnuaire_layout .bt-big-ico {
+  background: #fff;
+  color: #183354;
+  padding-right: 60px;
+  padding-left: 40px;
+}
+#zoneAnnuaire_layout .bt-big-ico-white {
+  color: #fff;
+  background: #183354;
+  padding-right: 60px;
+  padding-left: 40px;
+}
+#zoneAnnuaire_layout .bt-big i.fas {
+  background: #183354;
+  color: #fff;
+}
+#zoneAnnuaire_layout .bt-big:hover {
+  background: #fff;
+  color: #183354;
+}
+#zoneAnnuaire_layout .bt-big-ico:hover {
+  background: #183354;
+  color: #fff;
+}
+#zoneAnnuaire_layout .bt-big-ico-white:hover {
+  color: #183354;
+  background: #fff;
+}
+#zoneAnnuaire_layout .bt-light {
+  background: transparent;
+  color: #183354;
+}
+#zoneAnnuaire_layout h1 {
+  margin-top: 0;
+  color: #000;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+#zoneAnnuaire_layout h2 {
+  color: #183354;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+#zoneAnnuaire_layout .red {
+  color: #e32424;
+}
+#zoneAnnuaire_layout .green {
+  color: #46ac00;
+}
+#zoneAnnuaire_layout .tableau_formulaire .libelle {
+  text-transform: uppercase;
+  color: #595959;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 10px;
+  background: transparent;
+  text-align: left;
+  width: 225px;
+}
+#zoneAnnuaire_layout .tableau_formulaire .valeur input.text,
+#zoneAnnuaire_layout .tableau_formulaire .valeur input.input-search select.select,
+#zoneAnnuaire_layout .tableau_formulaire .valeur textarea.textarea {
+  border-radius: 0px;
+}
+#zoneAnnuaire_layout input[type="text"],
+#zoneAnnuaire_layout select,
+#zoneAnnuaire_layout .select,
+#zoneAnnuaire_layout textarea,
+#zoneAnnuaire_layout input[type="file"],
+#zoneAnnuaire_layout input[type="password"],
+#zoneAnnuaire_layout input.text {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  padding: 10px 12px;
+  background: #fff;
+  height: 50px;
+}
+#zoneAnnuaire_layout .in_error {
+  border: 1px solid #B50303 !important !important;
+  background: #FFA8A8 !important;
+}
+#zoneAnnuaire_layout .tableau_formulaire .libelle {
+  vertical-align: top;
+}
+#zoneAnnuaire_layout textarea {
+  min-height: 50px;
+  min-height: 150px;
+}
+#zoneAnnuaire_layout a.jqueryButton {
+  margin: 0px 20px;
+}
+#zoneAnnuaire_layout a {
+  text-decoration: none;
+}
+#zoneAnnuaire_layout a:hover {
+  text-decoration: none;
+}
+#zoneAnnuaire_layout .link1 {
+  display: inline-block;
+  color: #000;
+  font-size: 18px;
+  text-decoration: underline;
+  margin-top: 25px;
+}
+#zoneAnnuaire_layout .link1.retour {
+  font-size: 18px;
+}
+#zoneAnnuaire_layout .link1:hover {
+  color: #000;
+  text-decoration: none;
+}
+#zoneAnnuaire_layout .tablelist {
+  margin: 50px 0px;
+  width: 100%;
+}
+#zoneAnnuaire_layout .tablelist th {
+  background: #183354;
+  color: #fff;
+  padding: 6px 30px;
+  font-weight: normal;
+}
+#zoneAnnuaire_layout .tablelist td {
+  padding: 8px 30px;
+  background: #f4f4f4;
+}
+#zoneAnnuaire_layout .tablelist tr:nth-child(even) td {
+  background: #fff;
+}
+#zoneAnnuaire_layout .tablelist td i.fas {
+  margin: 0px 5px;
+}
+#zoneAnnuaire_layout .searchable.multipleSelect input[type="text"] {
+  height: auto;
+}
+#zoneAnnuaire_layout .searchable.multipleSelect .subOptions {
+  padding-left: 5px;
+}
+#zoneAnnuaire_layout i.fa-chevron-down {
+  position: relative;
+  right: auto;
+  top: auto;
+}
+#zoneAnnuaire_layout .rs i.fab {
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  padding-top: 7px;
+  text-align: center;
+  color: #fff;
+}
+#zoneAnnuaire_layout .rs i.fab:hover {
+  color: #fff;
+}
+#zoneAnnuaire_layout .rs i.fab.fa-facebook-f {
+  background: #3b5998;
+}
+#zoneAnnuaire_layout .rs i.fab.fa-twitter {
+  background: #1da1f2;
+}
+#zoneAnnuaire_layout .rs i.fab.fa-linkedin-in {
+  background: #0077b5;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_buttons {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .navtab {
+    text-align: center;
+  }
+}
+#zoneAnnuaire_layout .navtab a {
+  display: block;
+  border-bottom: 1px solid #000;
+  color: #000;
+  padding: 13px 13px 13px 0px;
+  margin-right: -30px;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .navtab a {
+    margin-right: 0px;
+  }
+}
+#zoneAnnuaire_layout .navtab-right a {
+  margin-left: 0px;
+  margin-right: 0;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .navtab-right a {
+    margin-left: 0px;
+  }
+}
+#zoneAnnuaire_layout .navtab a:hover,
+#zoneAnnuaire_layout .navtab.active a {
+  color: #000;
+  border-bottom: 3px solid #000;
+  padding-bottom: 12px;
+  font-weight: bold;
+}
+#zoneAnnuaire_layout .navtab a i.fas {
+  font-size: 28px;
+}
+#zoneAnnuaire_layout .navtab a span {
+  margin: 0 15px;
+}
+#zoneAnnuaire_layout .quick_search h2 {
+  padding-left: 0;
+}
+#zoneAnnuaire_layout .quick_search input[type="text"] {
+  width: 50%;
+}
+#zoneAnnuaire_layout .annuaire_list {
+  background: #fff;
+  padding: 15px;
+  margin: 20px 15px 0px;
+  width: calc(100% - 30px);
+}
+#zoneAnnuaire_layout .annuaire_single {
+  position: relative;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  margin-left: 30px;
+  height: 110px;
+  padding-left: 70px;
+  padding-top: 15px;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_single {
+    height: 130px;
+  }
+}
+#zoneAnnuaire_layout .annuaire_single .ologo {
+  position: absolute;
+  left: -30px;
+  top: 14px;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  vertical-align: middle;
+}
+#zoneAnnuaire_layout .annuaire_single .ologo img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+#zoneAnnuaire_layout .annuaire_single .otype {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 125px;
+  background: #0cbc9a;
+  color: #fff;
+  padding: 2px 6px 2px 35px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_single .otype {
+    width: 100%;
+    color: #0cbc9a;
+    padding: 0;
+    font-size: 3px;
+  }
+}
+#zoneAnnuaire_layout .annuaire_single .otype.color2 {
+  background: #183354;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_single .otype.color2 {
+    color: #183354;
+  }
+}
+#zoneAnnuaire_layout .annuaire_single .otype.color3 {
+  background: #8AD45A;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_single .otype.color3 {
+    color: #8AD45A;
+  }
+}
+#zoneAnnuaire_layout .annuaire_single .desc {
+  margin-top: 2px;
+}
+#zoneAnnuaire_layout .annuaire_single .desc a {
+  color: #000;
+  font-weight: bold;
+}
+#zoneAnnuaire_layout .annuaire_single .desc a:hover {
+  text-decoration: underline;
+}
+#zoneAnnuaire_layout .annuaire_single .details {
+  color: #a6a6a6;
+  font-size: 14px;
+  margin-top: 16px;
+  line-height: 0.8 !important;
+}
+#zoneAnnuaire_layout .annuaire_single .info {
+  color: #a6a6a6;
+  font-size: 14px;
+  margin-top: 6px;
+}
+#zoneAnnuaire_layout .annuaire_single .info img.photo-profil {
+  max-width: 30px;
+  margin-left: 3px;
+}
+#zoneAnnuaire_layout .annuaire_single:hover {
+  background: #f6f6f6;
+}
+#zoneAnnuaire_layout .col-widget {
+  border: 1px solid #e6e6e6;
+  border-bottom: 2px solid #183354;
+  background: #fff;
+  padding: 25px 25px 0px;
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .col-widget .title {
+  color: #183354;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+#zoneAnnuaire_layout .col-widget .last_offer {
+  display: block;
+  padding: 10px 25px 15px;
+  min-height: 125px;
+  position: relative;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+#zoneAnnuaire_layout .col-widget .last_offer .date {
+  font-size: 14px;
+  color: #767171;
+}
+#zoneAnnuaire_layout .col-widget .last_offer .desc {
+  display: block;
+  line-height: 1.5em;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .col-widget .last_offer .desc:hover {
+  text-decoration: underline;
+}
+#zoneAnnuaire_layout .col-widget .last_offer .details {
+  color: #767171;
+  font-size: 13px;
+}
+#zoneAnnuaire_layout .col-widget .last_offer .info {
+  font-size: 14px;
+  color: #bfbfbf;
+  text-align: right;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  margin-top: -16px;
+}
+#zoneAnnuaire_layout .col-widget .last_offer .info a {
+  color: #bfbfbf;
+}
+#zoneAnnuaire_layout .col-widget .last_offer:hover {
+  background: #f6f6f6;
+}
+#zoneAnnuaire_layout .col-widget .last_offer + .last_offer {
+  padding: 10px 25px 15px 25px;
+  border-top: 1px solid #183354;
+}
+#zoneAnnuaire_layout .col-widget .recruiter {
+  display: block;
+  padding: 10px 25px 15px 25px;
+  min-height: 90px;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+#zoneAnnuaire_layout .col-widget .recruiter .desc {
+  float: left;
+  width: 50%;
+}
+#zoneAnnuaire_layout .col-widget .recruiter .desc a {
+  display: block;
+  line-height: 1.5em;
+  color: #000;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .col-widget .recruiter .desc a:hover {
+  text-decoration: underline;
+}
+#zoneAnnuaire_layout .col-widget .recruiter .desc .details {
+  color: #767171;
+  font-size: 13px;
+}
+#zoneAnnuaire_layout .col-widget .recruiter .rlogo {
+  float: right;
+  width: 50%;
+}
+#zoneAnnuaire_layout .col-widget .recruiter .rlogo img {
+  max-height: 80px;
+}
+#zoneAnnuaire_layout .col-widget .recruiter:hover {
+  background: #f6f6f6;
+}
+#zoneAnnuaire_layout .col-widget .recruiter + .recruiter {
+  padding: 10px 25px 15px 25px;
+  border-top: 1px solid #183354;
+}
+#zoneAnnuaire_layout .col-widget .view_offer {
+  display: block;
+  padding: 10px 25px 15px 25px;
+  min-height: 125px;
+  position: relative;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+#zoneAnnuaire_layout .col-widget .view_offer .desc {
+  display: block;
+  line-height: 1.5em;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .col-widget .view_offer .desc:hover {
+  text-decoration: underline;
+}
+#zoneAnnuaire_layout .col-widget .view_offer .details {
+  color: #767171;
+  font-size: 13px;
+}
+#zoneAnnuaire_layout .col-widget .view_offer .info {
+  font-size: 14px;
+  color: #bfbfbf;
+  text-align: right;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+#zoneAnnuaire_layout .col-widget .view_offer:hover {
+  background: #f6f6f6;
+}
+#zoneAnnuaire_layout .col-widget .view_offer + .view_offer {
+  padding: 10px 25px 15px 25px;
+  border-top: 1px solid #183354;
+}
+#zoneAnnuaire_layout .communications {
+  margin-top: 150px;
+}
+#zoneAnnuaire_layout .annuaire_result {
+  margin-top: 40px;
+}
+#zoneAnnuaire_layout .annuaire_sidebar {
+  margin-bottom: 30px;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .title {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .title i.fas {
+  font-size: 30px;
+  margin-right: 6px;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .list_filters li {
+  float: left;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  list-style-type: none;
+  padding: 8px 10px;
+  margin: 0px 12px 6px 0px;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .list_filters li i.fas {
+  font-size: 20px;
+  cursor: pointer;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .bloc_filters {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  margin-top: 25px;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .bloc_filters .bloc_title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .bloc_filters li {
+  list-style-type: none;
+  font-size: 14px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 8px;
+  margin: 0 0 5px;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .bloc_filters li label,
+#zoneAnnuaire_layout .annuaire_sidebar .bloc_filters li input[type="checkbox"] {
+  margin: 0;
+}
+#zoneAnnuaire_layout .annuaire_sidebar .bloc_filters a {
+  color: #000;
+}
+#zoneAnnuaire_layout .annuaire_result_topbar {
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  padding: 25px 15px ;
+  margin-bottom: 20px;
+}
+#zoneAnnuaire_layout .annuaire_result_topbar a {
+  color: #bfbfbf;
+  margin-left: 40px;
+}
+#zoneAnnuaire_layout .annuaire_result_topbar a.active,
+#zoneAnnuaire_layout .annuaire_result_topbar a:hover {
+  color: #767171;
+}
+#zoneAnnuaire_layout .annuaire_result_map {
+  margin-bottom: 20px;
+}
+#zoneAnnuaire_layout .annuaire_result_list {
+  background: #fff;
+  padding: 15px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details {
+  background: #fff;
+  padding: 20px;
+  margin-top: 40px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head {
+  border-bottom: 2px solid #183354;
+  padding-bottom: 25px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .img-thumbnail {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .img-thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .desc {
+  color: #000;
+  font-size: 32px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .details {
+  color: #000;
+  font-size: 24px;
+  margin-top: 12px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .info {
+  color: #a0a0a0;
+  font-size: 20px;
+  margin-top: 12px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .stats {
+  font-size: 14px;
+  color: #767171;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .bts {
+  margin-top: 10px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .bts .bt-big {
+  position: relative;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .bts .bt-big i.fas {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  font-size: 32px;
+  padding-top: 14px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .bts .bt-big:hover i.fas {
+  background: #183354;
+  color: #fff;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .otype {
+  position: absolute;
+  right: -6px;
+  top: -20px;
+  width: 125px;
+  background: #0cbc9a;
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .otype {
+    width: 100%;
+    color: #0cbc9a;
+    padding: 0;
+    font-size: 3px;
+  }
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .otype.color2 {
+  background: #183354;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .otype.color2 {
+    color: #183354;
+  }
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .otype.color3 {
+  background: #8AD45A;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .otype.color3 {
+    color: #8AD45A;
+  }
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_head .nbre_vues {
+  margin-top: 7px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content {
+  margin-top: 30px;
+  border-bottom: 2px solid #183354;
+  padding-bottom: 35px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar {
+  padding-left: 0px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .bloc {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .bloc .title {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .travail .title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .travail li {
+  float: left;
+  width: 50%;
+  list-style-type: none;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .travail li {
+    width: 16%;
+  }
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .travail .link1 {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .share .text-left,
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .rs .text-left {
+    text-align: right;
+  }
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .share .text-right,
+  #zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .rs .text-right {
+    text-align: left;
+  }
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .share a i.fab {
+  font-size: 32px;
+  color: #000;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_sidebar .share a i.fab:hover {
+  color: #183354;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_content {
+  padding-right: 30px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_content .title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_content p {
+  text-align: justify;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_content .offer_content p + .title {
+  margin-top: 25px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_contact {
+  margin-top: 30px;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_contact .col-sm-3 {
+  padding: 5px 15px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_contact .col-sm-9 {
+  color: #a0a0a0;
+  padding: 5px 15px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_contact .bts {
+  margin-top: 30px;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_contact .link1 {
+  padding-top: 24px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi {
+  display: none;
+  margin-top: 50px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .sep_arrow,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .sep_arrow {
+  text-align: center;
+  font-size: 60px;
+  color: #183354;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .title,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .title {
+  font-size: 24px;
+  color: #183354;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .subtitle,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .subtitle {
+  margin-top: 14px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .resume,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .resume {
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate input[name="choixCV"],
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi input[name="choixCV"] {
+  float: left;
+  margin: 15px 40px 40px 15px !important;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .title,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .title,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .title,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .title {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv a.chevron,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv a.chevron,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message a.chevron,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message a.chevron {
+  float: right;
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv a.chevron:hover,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv a.chevron:hover,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message a.chevron:hover,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message a.chevron:hover,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv a.chevron.on,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv a.chevron.on,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message a.chevron.on,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message a.chevron.on {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-3);
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .subtitle,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .subtitle,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .subtitle,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .subtitle {
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .icone,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .icone,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .icone,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .icone {
+  position: relative;
+  color: #183354;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .icone .ico1,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .icone .ico1,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .icone .ico1,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .icone .ico1 {
+  display: block;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 20px;
+  font-size: 70px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .icone .ico2,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .icone .ico2,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .icone .ico2,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .icone .ico2 {
+  display: block;
+  position: absolute;
+  margin-left: 58%;
+  margin-top: 80px;
+  font-size: 24px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .info,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .info,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .info,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .info {
+  height: 170px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .blocForm,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .blocForm,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .blocForm,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .blocForm {
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .blocForm .info,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .blocForm .info,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .blocForm .info,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .blocForm .info {
+  background: #dbdbdb;
+  color: #fff;
+  border: 2px solid #dbdbdb;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .blocForm .desc,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .blocForm .desc,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .blocForm .desc,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .blocForm .desc {
+  font-size: 20px;
+  margin-top: 110px;
+  margin-left: 20px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .blocInput,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .blocInput,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .blocInput,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .blocInput {
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .blocInput .info,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .blocInput .info,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .blocInput .info,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .blocInput .info {
+  display: block;
+  border: 2px solid #183354;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cv .blocInput .desc,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cv .blocInput .desc,
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .message .blocInput .desc,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .message .blocInput .desc {
+  font-size: 20px;
+  margin-top: 110px;
+  margin-left: 20px;
+  color: #000;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .lm,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .lm {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .lm input[type="file"],
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .lm input[type="file"] {
+  padding: 0;
+  border: 0;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .cnil,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .cnil {
+  margin-top: 50px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .uphoto,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .uphoto {
+  float: left;
+  width: 20%;
+  max-width: 100px;
+  margin-right: 10px;
+}
+#zoneAnnuaire_layout .annuaire_offer_details .annuaire_offer_postulate .udesc,
+#zoneAnnuaire_layout .annuaire_offer_details #zoneFormulaireEnvoi .udesc {
+  float: left;
+  padding: 15px;
+}
+#zoneAnnuaire_layout .annuaire_saved_offers {
+  margin-top: 20px;
+}
+#zoneAnnuaire_layout .annuaire_saved_offers .annuaire_saved_offers_container {
+  background: #fff;
+  padding-bottom: 20px;
+}
+#zoneAnnuaire_layout .annuaire_saved_offers .annuaire_result_topbar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #183354;
+  color: #fff;
+  padding: 10px 20px;
+}
+#zoneAnnuaire_layout .annuaire_saved_offers .annuaire_single {
+  height: 155px;
+}
+#zoneAnnuaire_layout .annuaire_saved_offers .annuaire_single .sep {
+  width: -webkit-calc(100% + 70px);
+  border-top: 2px solid #183354;
+  margin-left: -70px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .annuaire_saved_offers .annuaire_single .osave {
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .annuaire_saved_offers .annuaire_single .obt {
+  font-size: 24px;
+}
+#zoneAnnuaire_layout .annuaire_saved_offers .annuaire_single .obt a {
+  display: block;
+  margin-top: -6px;
+  margin-right: 10px;
+}
+#zoneAnnuaire_layout .company_details .companyHeader {
+  margin: 0 -30px -30px;
+}
+#zoneAnnuaire_layout .company_details .companyHeader .companyHeaderContent {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+#zoneAnnuaire_layout .company_details .companyHeader .companyHeaderContent .clogo {
+  position: absolute;
+  display: flex;
+  left: 75px;
+  bottom: -30px;
+  background: #fff;
+  padding: 15px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #e6e6e6;
+}
+#zoneAnnuaire_layout .company_details .companyHeader .companyHeaderContent .clogo img {
+  max-width: 120px;
+  max-height: 120px;
+  margin: auto;
+}
+#zoneAnnuaire_layout .company_details .companyHeader .companyHeaderContent .cico {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  color: #efefef;
+  font-size: 32px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer {
+  margin-top: 30px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar {
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .title {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #595959;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .tabs li {
+  float: right;
+  list-style-type: none;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .tabs li + li {
+  border-right: 1px solid #e6e6e6;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .tabs li a {
+  position: relative;
+  display: block;
+  color: #595959;
+  padding: 10px 40px 10px 15px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .tabs li a span {
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  border: 1px solid #e6e6e6;
+  color: #000;
+  text-align: center;
+  background: #fff;
+  padding: 2px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .tabs li.active a,
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .tabs li a:hover {
+  background: #635e5e;
+  color: #fff;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .tabs li.active a:after,
+#zoneAnnuaire_layout .company_details .companyContainer .companyTopbar .tabs li a:hover:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 42%;
+  height: 12px;
+  width: 12px;
+  background: inherit;
+  transform: translateY(6px) rotate(45deg);
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .blocs {
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .blocs .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .interlocuteurs .person {
+  padding-top: 5px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .interlocuteurs a i.fas {
+  font-size: 24px;
+  color: #000;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .interlocuteurs a:hover i.fas {
+  font-size: 24px;
+  color: #183354;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .docs {
+  margin: 35px 5px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .docs a {
+  display: block;
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .docs a i.fas {
+  font-size: 24px;
+  margin-right: 12px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .docs a:hover {
+  color: #183354;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companySidebar .travail li {
+  float: left;
+  width: 33%;
+  list-style-type: none;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyMedias,
+#zoneAnnuaire_layout .company_details .companyContainer .companyContent {
+  border: 1px solid #e6e6e6;
+  padding: 15px 15px 60px 15px;
+  background: #fff;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyMedias .title,
+#zoneAnnuaire_layout .company_details .companyContainer .companyContent .title {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyOffers {
+  padding: 15px;
+  background: #fff;
+}
+#zoneAnnuaire_layout .company_details .companyContainer .companyOffers .otype {
+  display: none;
+}
+#zoneAnnuaire_layout .annuaire_depot_form,
+#zoneAnnuaire_layout .annuaire_cv_form,
+#zoneAnnuaire_layout .annuaire_form {
+  margin-top: 40px;
+}
+#zoneAnnuaire_layout .annuaire_row {
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .annuaire_row.bts {
+  margin-top: 75px;
+}
+#zoneAnnuaire_layout .libel {
+  text-transform: uppercase;
+  color: #595959;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+#zoneAnnuaire_layout .annuaire_group_radio {
+  height: 120px !important;
+  padding: 10px 15px;
+  width: 100% !important;
+  border: 1px solid #b7b7b7;
+  background-color: #fff;
+}
+#zoneAnnuaire_layout .multipleSelect {
+  height: 120px !important;
+  padding: 10px 15px;
+  width: 100% !important;
+  border: 1px solid #b7b7b7;
+}
+#zoneAnnuaire_layout .form_facet .multipleSelect {
+  height: 200px !important;
+}
+#zoneAnnuaire_layout .multipleSelect::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+#zoneAnnuaire_layout .multipleSelect::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+#zoneAnnuaire_layout .multipleSelect::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #183354;
+}
+#zoneAnnuaire_layout .nOption label {
+  top: 3px;
+  left: 6px;
+}
+#zoneAnnuaire_layout .optGroupDisplay:hover,
+#zoneAnnuaire_layout .nOption:hover {
+  background-color: #183354;
+}
+#zoneAnnuaire_layout .input-search {
+  width: 100% !important;
+  padding: 5px !important;
+  margin: 3px 3px 3px 0 !important;
+}
+#zoneAnnuaire_layout .img-search {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+#zoneAnnuaire_layout .upper {
+  text-transform: uppercase;
+}
+#zoneAnnuaire_layout .uploadOtherCv {
+  opacity: 0;
+  position: absolute;
+  width: 269px;
+  height: 169px;
+}
+#zoneAnnuaire_layout .tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 10;
+  width: 160px;
+  padding: 20px 0 15px;
+  border: 1px solid #d2d0d1;
+  margin: 4px 0 0 -80px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  text-align: center;
+  color: #4a4a4a;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s, visibility .3s;
+}
+#zoneAnnuaire_layout a .tooltip:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  border-width: 12px;
+  border-style: solid;
+  margin-left: -12px;
+}
+#zoneAnnuaire_layout a .tooltip:before {
+  border-color: transparent transparent #d2d0d1;
+}
+#zoneAnnuaire_layout a .tooltip:after {
+  border-color: transparent transparent #fff;
+  margin-bottom: -1px;
+}
+#zoneAnnuaire_layout a:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  background-color: white;
+}
+#zoneAnnuaire_layout a {
+  color: #183354;
+}
+#zoneAnnuaire_layout a:hover,
+#zoneAnnuaire_layout a:focus {
+  color: #1e3f68;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .filters-inner {
+    background: #fff;
+    position: relative;
+    padding: 50px 15px;
+  }
+  #zoneAnnuaire_layout .filters-wrapper:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 9999px;
+  }
+}
+#zoneAnnuaire_layout .filter_content label {
+  font-weight: normal;
+}
+#zoneAnnuaire_layout #mes_alertes .na-tabs-wrapper {
+  float: none;
+  display: block !important;
+  margin: auto;
+  border: 0 none;
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+}
+#zoneAnnuaire_layout #mes_alertes .na-tabs-wrapper > li {
+  min-width: unset;
+  border: 0 none;
+  background: transparent !important;
+}
+#zoneAnnuaire_layout #mes_alertes .na-tabs-wrapper > li.na-tabs {
+  flex: none !important;
+  min-width: 0;
+  position: relative;
+}
+#zoneAnnuaire_layout #mes_alertes .na-tabs-wrapper > li.na-tabs > a {
+  text-transform: uppercase;
+  padding: 0 14px;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: right;
+  color: #183354;
+  line-height: 57px;
+}
+#zoneAnnuaire_layout #mes_alertes .na-tabs-wrapper > li.na-tabs.ui-state-active > a:after,
+#zoneAnnuaire_layout #mes_alertes .na-tabs-wrapper > li.na-tabs:hover > a:after {
+  content: '';
+  height: 2px;
+  background: #183354;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#zoneAnnuaire_layout .flex {
+  display: flex;
+}
+#zoneAnnuaire_layout .annuaire-mainbar {
+  display: flex;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire_form-light {
+  flex: 3;
+  margin: 0 15px;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire-cta + .annuaire-cta {
+  margin-left: 15px;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire-cta .na-bouton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire-cta .na-bouton {
+  height: 50px;
+  padding: 0 30px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire-cta .na-bouton > i {
+  font-size: 20px !important;
+  margin-right: 8px;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire_form-light .annuaire-cta .annuaire-cta {
+  max-width: 50px;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire_form-light .annuaire-cta button {
+  max-width: 50px;
+  border-radius: 0 3px 3px 0;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire_form-light .annuaire-cta button i {
+  margin: 0 !important;
+  font-size: 20px !important;
+}
+#zoneAnnuaire_layout .annuaire-mainbar .annuaire-cta .na-bouton:hover,
+#zoneAnnuaire_layout .annuaire-mainbar button:hover {
+  background: transparent !important;
+  color: #183354 !important;
+}
+#zoneAnnuaire_layout .anuaire-toolbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#zoneAnnuaire_layout .anuaire-toolbar .toolbar-item {
+  font-size: 16px;
+  display: flex;
+}
+#zoneAnnuaire_layout .anuaire-toolbar .toolbar-item select {
+  padding: 5px 10px !important;
+  height: unset;
+  border: 0 none;
+  color: #000;
+}
+#zoneAnnuaire_layout .anuaire-toolbar .toolbar-item a {
+  color: #000;
+  margin: 0 !important;
+}
+#zoneAnnuaire_layout .anuaire-toolbar .toolbar-item a.displayMode {
+  color: #999;
+}
+#zoneAnnuaire_layout .anuaire-toolbar .toolbar-item a.displayMode.active {
+  color: #000;
+}
+#zoneAnnuaire_layout .anuaire-toolbar #topbar_nb_persons {
+  padding: unset;
+  margin: unset;
+}
+#zoneAnnuaire_layout .annuaire_single {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 15px;
+}
+#zoneAnnuaire_layout .annuaire_single .single_photo {
+  position: relative !important;
+  margin-right: 15px;
+}
+#zoneAnnuaire_layout .annuaire_single .single_description {
+  flex: 3;
+  margin: 0;
+  width: 100%;
+}
+#zoneAnnuaire_layout .annuaire_single .single_libel {
+  font-weight: bold;
+}
+#zoneAnnuaire_layout .annuaire_single .single_info4 {
+  font-style: italic;
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions {
+  display: flex;
+  align-items: center;
+  top: 15px;
+  right: 15px;
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action {
+  position: relative;
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action + .single-action {
+  margin-left: 10px;
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action:nth-child(1) a {
+  background: #183354;
+  border: #183354;
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action:nth-child(2) a {
+  background: rgba(24, 51, 84, 0.75);
+  border: rgba(24, 51, 84, 0.75);
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action:nth-child(3) a {
+  background: rgba(24, 51, 84, 0.5);
+  border: rgba(24, 51, 84, 0.5);
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action:nth-child(4) a {
+  background: rgba(24, 51, 84, 0.25);
+  border: rgba(24, 51, 84, 0.25);
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action a {
+  color: #fff;
+  display: inline-block;
+  padding: 0;
+  border: 0 none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action a i {
+  line-height: 50px;
+  font-size: 18px;
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action a i.smaller {
+  font-size: 11px !important;
+  position: absolute;
+  font-weight: bold;
+  line-height: 1;
+  top: 9px;
+  right: 9px;
+  height: 8px;
+  width: 8px;
+}
+#zoneAnnuaire_layout .annuaire_single .single_actions .single-action a:hover {
+  background: transparent;
+  color: #183354;
+  border: 1px solid #183354;
+}
+@media (max-width: 686.98px) {
+  #zoneAnnuaire_layout .annuaire_single {
+    flex-direction: column;
+  }
+  #zoneAnnuaire_layout .single_description {
+    padding: 20px 15px;
+    text-align: center;
+  }
+  #zoneAnnuaire_layout .anuaire-toolbar {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #zoneAnnuaire_layout .annuaire-mainbar {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #zoneAnnuaire_layout .annuaire-mainbar > .annuaire-cta {
+    margin: 15px;
+  }
+  #zoneAnnuaire_layout .annuaire-mainbar > .annuaire_form-light {
+    margin: 15px;
+  }
+  #zoneAnnuaire_layout .annuaire-mainbar > .annuaire_form-light .annuaire-cta .fa-search {
+    display: inline-block !important;
+    width: 50px !important;
+  }
+  #zoneAnnuaire_layout .annuaire-mainbar > .annuaire_form-light .annuaire-cta .text {
+    display: none !important;
+  }
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #3498db;
+  /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 300px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.overlay_annuaire {
+  background: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+}
+/**/
+#overlay {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: fixed;
+  top: 50;
+  /* slight offeset to allow toggle button to work */
+  left: 0;
+  /* 0.4 = 40% */
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  /* For IE8 and earlier */
+  z-index: 9999;
+}
+.annuaire_form input:disabled {
+  background-color: #c5c5c5 !important;
+}
+.annuaire_form input:disabled::-webkit-input-placeholder {
+  color: #000 !important;
+}
+.annuaire_form input:disabled:-moz-placeholder {
+  /* FF 4-18 */
+  color: #000 !important;
+}
+.annuaire_form input:disabled::-moz-placeholder {
+  /* FF 19+ */
+  color: #000 !important;
+}
+.annuaire_form input:disabled:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #000 !important;
+}
+.annuaire_form select:disabled {
+  background-color: #c5c5c5 !important;
+  color: #000 !important;
+}
+#zoneAnnuaire_layout {
+  background: #fff;
+  padding: 15px;
+}
+#zoneAnnuaire_layout .quick_search .text-right {
+  display: flex;
+  justify-content: space-between;
+}
+#zoneAnnuaire_layout .quick_search .text-right .bloc_link1 {
+  font-size: 15px;
+  padding: 14px 16px;
+}
+@media (max-width: 600px) {
+  #zoneAnnuaire_layout .quick_search .text-right .bloc_link1 {
+    padding: 16px 0 !important;
+  }
+}
+#zoneAnnuaire_layout .quick_search .text-right .bloc_link1 a.link1 {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+#zoneAnnuaire_layout .quick_search .text-right .btn_primary {
+  border: 1px solid #183354;
+  color: #183354;
+  text-align: center;
+  flex-grow: 2;
+}
+#zoneAnnuaire_layout .quick_search .text-right .btn_primary a {
+  color: #183354;
+}
+#zoneAnnuaire_layout .quick_search .text-right .btn_primary:hover,
+#zoneAnnuaire_layout .quick_search .text-right .btn_primary:hover a {
+  background-color: #183354;
+  color: #fff;
+}
+#zoneAnnuaire_layout .quick_search .text-right .btn_secondary {
+  border: 1px solid #848990;
+  color: #848990;
+  text-align: center;
+  margin-left: 15px;
+}
+#zoneAnnuaire_layout .quick_search .text-right .btn_secondary a {
+  color: #848990;
+}
+#zoneAnnuaire_layout .quick_search .text-right .btn_secondary:hover,
+#zoneAnnuaire_layout .quick_search .text-right .btn_secondary:hover a {
+  background-color: #848990;
+  color: #fff;
+}
+#zoneAnnuaire_layout .col-common.col1 {
+  padding-right: 0;
+}
+#zoneAnnuaire_layout .quick_search .btmaj {
+  text-align: center;
+  padding: 0 10px !important;
+  text-transform: none !important;
+  letter-spacing: 0px !important;
+  font-size: 15px;
+  height: 50px;
+  line-height: 48px;
+}
+#zoneAnnuaire_layout .bt-color1.btsearch.upload-button {
+  padding: 10px !important;
+  line-height: normal;
+  height: 40px;
+}
+@media (max-width: 1200px) {
+  .text-right {
+    margin-top: 15px;
+  }
+  .bloc_link1.btn_secondary,
+  .bloc_link1.btn_primary {
+    width: calc(49%);
+  }
+}
+@media (max-width: 620px) {
+  .bloc_link1.btn_secondary,
+  .bloc_link1.btn_primary {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .bloc_link1.btn_secondary a,
+  .bloc_link1.btn_primary a {
+    font-size: 12px !important;
+  }
+}
+#zoneAnnuaire_layout .alerts.bt-color1 i[class*=" fa-"] {
+  float: left;
+  font-size: 30px;
+  margin-top: -6px;
+  margin-left: 3px;
+}
+#zoneAnnuaire_layout {
+  font-size: 13px;
+}
+#zoneAnnuaire_layout .title1 {
+  font-size: 13px;
+  font-weight: bold;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 8px;
+}
+#zoneAnnuaire_layout #topbar_nb_persons {
+  font-size: 15px;
+}
+#zoneAnnuaire_layout .advanced-search .link1 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+#zoneAnnuaire_layout .quick_search {
+  margin-bottom: 50px;
+}
+#zoneAnnuaire_layout .quick_search .annuaire_search {
+  min-width: 250px;
+}
+#zoneAnnuaire_layout .quick_search input[type="text"] {
+  width: 100%;
+  max-width: 100%;
+  margin-right: 0;
+  vertical-align: top;
+  min-width: 250px;
+}
+#zoneAnnuaire_layout .quick_search .annuaire_search > .annuaire-cta {
+  width: 50px;
+  max-width: 50px;
+}
+#zoneAnnuaire_layout .quick_search .btmaj {
+  text-align: center;
+  padding: 16px 8px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 13px;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .quick_search .btmaj {
+    width: 100%;
+    display: none;
+  }
+}
+#zoneAnnuaire_layout .quick_search .bt-color1 {
+  margin: 0;
+  vertical-align: top;
+}
+#zoneAnnuaire_layout .quick_search .link1 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+#zoneAnnuaire_layout .quick_search .btsearch {
+  text-align: center;
+}
+#zoneAnnuaire_layout .quick_search .btsearch span.text {
+  display: none;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .quick_search {
+    text-align: center !important;
+    margin-bottom: 15px;
+  }
+  #zoneAnnuaire_layout .quick_search .col-common {
+    margin-bottom: 15px;
+    text-align: center !important;
+  }
+  #zoneAnnuaire_layout .quick_search .col-common input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  #zoneAnnuaire_layout .quick_search .btsearch {
+    width: 100%;
+    display: block;
+    padding: 17px;
+  }
+  #zoneAnnuaire_layout .quick_search .btsearch i.fas {
+    display: none;
+  }
+  #zoneAnnuaire_layout .quick_search .btsearch span.text {
+    opacity: 1;
+    display: block;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+}
+#zoneAnnuaire_layout .annuaire_list,
+#zoneAnnuaire_layout .annuaire_result_list {
+  margin: 0px;
+  padding: 13px 15px;
+  width: 100%;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single-row .annuaire_single-alert,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single-row .annuaire_single-alert {
+  position: absolute;
+  margin: auto;
+  z-index: 999;
+  transform: translate(-50%);
+  left: 50%;
+  text-align: center;
+  padding: 10px 30px;
+  padding: 8px 20px 12px;
+  border-radius: 0 0 15px 15px;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single {
+  padding-top: 0px;
+  margin-left: 0px;
+  border: 0;
+  padding-left: 0;
+  min-height: 110px;
+  height: auto;
+  border-bottom: 1px solid #efefef;
+  padding: 0;
+  margin: 0;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single:hover,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single:hover {
+  background: transparent;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .ologo,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .ologo {
+  left: 0;
+  top: 0;
+  border: 0;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .ologo .model-image,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .ologo .model-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_list .annuaire_single .ologo .model-ratio-image,
+  #zoneAnnuaire_layout .annuaire_result_list .annuaire_single .ologo .model-ratio-image {
+    display: inline-block;
+  }
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc {
+  margin-left: 100px;
+  border-bottom: 1px solid #e6e6e6;
+  min-height: 125px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_libel,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_libel {
+  font-weight: bold;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_libel a,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_libel a {
+  color: #555;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_libel a:hover,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_libel a:hover {
+  color: #0374a3;
+  text-decoration: underline !important;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_libel .badges,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_libel .badges {
+  display: inline-block;
+  margin-left: 8px;
+  height: 25px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_libel .badges img,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_libel .badges img {
+  width: 24px;
+  margin-right: 2px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_libel_entreprise,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_libel_entreprise {
+  margin-bottom: 4px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details {
+  color: #9d9d9d;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details a,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details a {
+  color: #9d9d9d;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details .single_info,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details .single_info {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details .single_info_entreprise,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details .single_info_entreprise {
+  margin-top: 1px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details .single_info2,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details .single_info2 {
+  margin-bottom: 6px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details .single_info3_entreprise .single_info4_entreprise,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details .single_info3_entreprise .single_info4_entreprise {
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 6px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details .single_info3_entreprise .single_info4_entreprise .fa-map-marker-alt,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details .single_info3_entreprise .single_info4_entreprise .fa-map-marker-alt {
+  position: absolute;
+  left: 0px;
+  line-height: 1.5em;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details .single_info3_entreprise .single_info5_entreprise,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details .single_info3_entreprise .single_info5_entreprise {
+  padding-left: 15px;
+  position: relative;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc .single_details .single_info3_entreprise .single_info5_entreprise .fa-phone,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc .single_details .single_info3_entreprise .single_info5_entreprise .fa-phone {
+  position: absolute;
+  left: 0px;
+  line-height: 1.5em;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_list .annuaire_single .single_desc,
+  #zoneAnnuaire_layout .annuaire_result_list .annuaire_single .single_desc {
+    padding-bottom: 15px;
+    min-height: auto;
+    border: 0;
+  }
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .otype,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .otype {
+  color: #0374a3;
+  background: transparent;
+  border: 1px solid #0374a3;
+  text-transform: uppercase;
+  width: auto;
+  font-size: 13px;
+  letter-spacing: 1.6px;
+  top: 6px;
+  padding: 0;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .otype a,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .otype a {
+  display: inline-block;
+  color: #0374a3;
+  padding: 7px 8px;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .otype:hover,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .otype:hover {
+  background: #0374a3;
+}
+#zoneAnnuaire_layout .annuaire_list .annuaire_single .otype:hover a,
+#zoneAnnuaire_layout .annuaire_result_list .annuaire_single .otype:hover a {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_list .annuaire_single .otype,
+  #zoneAnnuaire_layout .annuaire_result_list .annuaire_single .otype {
+    display: none;
+    /*top: auto;
+                    bottom: auto;
+                    left: auto;
+                    right: auto;
+                    text-align: center;
+                    position: relative;
+                    width: 70%;
+                    margin: auto;
+                    
+                    a {
+                        padding: 15px;
+                        width: 100%;
+                    }*/
+  }
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_list .annuaire_single .annuaire-chat,
+  #zoneAnnuaire_layout .annuaire_result_list .annuaire_single .annuaire-chat {
+    right: 0px !important;
+  }
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_list .annuaire_single,
+  #zoneAnnuaire_layout .annuaire_result_list .annuaire_single {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  #zoneAnnuaire_layout .annuaire_list .annuaire_single .icon_chat,
+  #zoneAnnuaire_layout .annuaire_result_list .annuaire_single .icon_chat {
+    right: 15px !important;
+    bottom: 40px !important;
+    top: unset !important;
+    opacity: .5;
+  }
+  #zoneAnnuaire_layout .annuaire_list .annuaire_single .icon_chat:hover,
+  #zoneAnnuaire_layout .annuaire_result_list .annuaire_single .icon_chat:hover,
+  #zoneAnnuaire_layout .annuaire_list .annuaire_single .icon_chat:active,
+  #zoneAnnuaire_layout .annuaire_result_list .annuaire_single .icon_chat:active {
+    opacity: 1;
+  }
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .title1 {
+  margin-bottom: 8px;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .reinitialize {
+  float: right;
+  color: #9d9d9d;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration: underline;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .reinitialize:hover {
+  color: #000;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .list_filters li {
+  border: 1px solid #e6e6e6;
+  background: #e6e6e6;
+  padding: 6px 9px;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .list_filters li a {
+  color: #555;
+  font-size: 14px;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .list_filters li a i.fas {
+  font-size: 11px;
+  margin-left: 5px;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters {
+  border: 0px;
+  padding: 0px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters .title1 {
+  border: 0;
+  cursor: pointer;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters .btClose {
+  position: absolute;
+  right: 18px;
+  top: 30px;
+  font-size: 8px;
+  cursor: pointer;
+  z-index: 1;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters .long_list .multipleSelect {
+  padding: 0;
+  padding-right: 10px;
+  border: 0;
+  max-width: 100% !important;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters .long_list .multipleSelect input[type="text"] {
+  max-width: 100%;
+  padding: 10px !important;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters .long_list .multipleSelect .img-search {
+  top: 14px;
+  right: 20px;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters .long_list .multipleSelect .nOption input {
+  vertical-align: top;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters .long_list .multipleSelect .nOption label {
+  max-width: 90%;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .btsearch {
+  display: none;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .btPopClose {
+  display: none;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .sidetop {
+    padding: 0 15px ;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .sidetop .title1 {
+    width: 35%;
+    display: inline-block;
+    border: 0;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .sidetop .title1.filtres {
+    text-align: right;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .sidetop .title1.filtres .reinitialize {
+    position: absolute;
+    float: none;
+    right: 15px;
+    bottom: -40px;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .sidetop .nbresults {
+    width: 63%;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .list_filters {
+    width: calc(100vw - 30px);
+    position: relative;
+    margin-top: 15px;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .list_filters:before {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #e6e6e6;
+    position: absolute;
+    top: -15px;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .list_filters ul {
+    max-width: calc(100% - 80px);
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet {
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 10000000;
+    padding: 45px 15px 15px 15px;
+    top: 0px;
+    left: 15px;
+    right: 15px;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .btPopClose {
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .bloc_filters .btClose {
+    z-index: 1;
+    top: 5px;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .btsearch {
+    width: calc(100% + 30px);
+    display: block;
+    padding: 17px;
+    margin-top: 15px;
+    margin: 15px -15px -15px -15px;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .btsearch i.fas {
+    display: none;
+  }
+  #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet .btsearch span.text {
+    opacity: 1;
+    display: block;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_result_topbar {
+  border: 0;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_result_topbar .title1 {
+  border: 0;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_result_list {
+  padding: 13px 0px;
+}
+#zoneAnnuaire_layout .annuaire_result .annuaire_result_map {
+  display: none;
+}
+@media (max-width: 768px) {
+  #zoneAnnuaire_layout .annuaire_result {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .hide_mob {
+    display: none;
+  }
+  .popBackG {
+    content: "";
+    position: fixed;
+    z-index: 10000;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    opacity: 0.5;
+  }
+}
+@media (min-width: 769px) {
+  .hide_desk {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .row-appli-mobile #zoneAnnuaire_layout .annuaire_result .annuaire_sidebar .form_facet {
+    padding: 0;
+    top: -160px;
+    left: 0;
+  }
+}

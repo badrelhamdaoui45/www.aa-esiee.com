@@ -1,0 +1,49 @@
+#table-contact {
+  color: #000;
+}
+#table-contact .titre-contact {
+  width: 100%;
+  color: #222;
+  padding: 0 0 5px;
+  border-bottom: 2px solid #ff5640;
+}
+#table-contact .form-contact-gmap {
+  margin-top: 10px;
+  border: 1px solid #dedede;
+}
+#table-contact > tbody > tr > td {
+  padding: 10px;
+}
+#infoWindow hr {
+  margin: 5px 0;
+}
+@media (min-width: 1170px) {
+  #table-contact > tbody > tr > td {
+    width: 33%;
+  }
+  #table-contact > tbody > tr > td:first-child {
+    width: 66%;
+  }
+}
+#table-contact .adresse {
+  padding-left: 15px !important;
+  position: relative;
+}
+#table-contact .adresse .contact-nom-asso {
+  font-weight: bold;
+}
+#table-contact .adresse,
+#table-contact .contact-phrase {
+  padding: 10px 0;
+  display: block;
+  line-height: 1.5em;
+}
+#table-contact .contact-phrase {
+  margin-bottom: 20px;
+}
+#table-contact .adress-icon {
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}

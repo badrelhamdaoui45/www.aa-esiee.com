@@ -1,0 +1,256 @@
+/* COULEURS */
+/*
+Sont définie en global, parématrables dans l'admin :
+- main_color_1
+- main_color_2
+*/
+/* RESPONSIVE */
+/* je sete des variale en utilisant celles de bootstrapo */
+/* HEADEER */
+/* couleur des textes */
+/* Les chartes ont souvent 3 couleurs principales et pas 2 */
+/* Maintenant on peut, à partir de ces 3 couleurs, définir les couleurs utilisées sur les différences composants */
+/* Section annuaire fond formulaire */
+/* FOOTER */
+/* block dateSide */
+@media (max-width: 767.98px) {
+  .page-blocks .page-block.block-titre_text_cta,
+  .page-blocks .page-block.block-image_link,
+  .page-blocks .page-block.block-vignette {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .page-blocks .nogutters {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /*
+  .page-blocks .nogutters:first-child {
+     padding-left:15px !important;
+  }
+  .page-blocks .nogutters:last-child {
+     padding-right:15px !important;
+  }
+*/
+}
+.page-block .contenu_static a,
+.page-block .block-contenu p a {
+  color: #ff5640 !important;
+  text-decoration: underline !important;
+}
+.page-block .contenu_static a:hover,
+.page-block .block-contenu p a:hover {
+  text-decoration: none !important;
+}
+/* LESS_COMMON : 'texte_image_left' */
+.block-texte_image_left {
+  background: #fff;
+  -moz-box-shadow: 4px 4px 10px -3px #cccccc;
+  -webkit-box-shadow: 4px 4px 10px -3px #cccccc;
+  -o-box-shadow: 4px 4px 10px -3px #cccccc;
+  box-shadow: 4px 4px 10px -3px #cccccc;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#cccccc, Direction=134, Strength=10);
+}
+.block-texte_image_left .block-contenu {
+  position: relative;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.block-texte_image_left .block-titre {
+  padding-top: 30px !important;
+  padding-bottom: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.block-texte_image_left .block-text {
+  line-height: 1.5;
+}
+.block-texte_image_left .block-bouton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 30px;
+}
+.block-texte_image_left .block-bouton a {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  background: #183354;
+  text-transform: uppercase;
+  border: 2px solid #183354;
+  padding: 14px 22px 14px;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  color: #fff;
+  transition: .3s;
+}
+.block-texte_image_left .block-bouton a i {
+  margin-right: 5px;
+}
+.block-texte_image_left .block-bouton a + a {
+  margin-left: 26px;
+}
+.block-texte_image_left .block-bouton a:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+.block-texte_image_left .block-images .block-image + .block-image {
+  margin-top: 35px;
+}
+@media (max-width: 1199.98px) {
+  .block-texte_image_left {
+    display: block !important;
+    height: auto !important;
+    padding: 30px !important;
+  }
+  .block-texte_image_left .row {
+    display: block !important;
+  }
+  .block-texte_image_left .block-contenu {
+    padding: 0;
+    width: unset !important;
+    height: auto !important;
+  }
+  .block-texte_image_left .block-bouton {
+    position: relative !important;
+    bottom: 0 !important;
+  }
+  .block-texte_image_left .block-bouton .c_bouton {
+    margin-top: 15px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .page-blocks .page-block.block-titre_text_cta,
+  .page-blocks .page-block.block-image_link,
+  .page-blocks .page-block.block-vignette {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .page-blocks .nogutters {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /*
+  .page-blocks .nogutters:first-child {
+     padding-left:15px !important;
+  }
+  .page-blocks .nogutters:last-child {
+     padding-right:15px !important;
+  }
+*/
+}
+.page-block .contenu_static a,
+.page-block .block-contenu p a {
+  color: #ff5640 !important;
+  text-decoration: underline !important;
+}
+.page-block .contenu_static a:hover,
+.page-block .block-contenu p a:hover {
+  text-decoration: none !important;
+}
+/* LESS_COMMON : 'texte_image_right' */
+.block-texte_image_right {
+  background: #fff;
+  -moz-box-shadow: 4px 4px 10px -3px #cccccc;
+  -webkit-box-shadow: 4px 4px 10px -3px #cccccc;
+  -o-box-shadow: 4px 4px 10px -3px #cccccc;
+  box-shadow: 4px 4px 10px -3px #cccccc;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#cccccc, Direction=134, Strength=10);
+}
+.block-texte_image_right .block-contenu {
+  position: relative;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.block-texte_image_right .block-titre {
+  padding-top: 30px !important;
+  padding-bottom: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.block-texte_image_right .block-text {
+  line-height: 1.5;
+}
+.block-texte_image_right .block-bouton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 30px;
+}
+.block-texte_image_right .block-bouton a {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  background: #183354;
+  text-transform: uppercase;
+  border: 2px solid #183354;
+  padding: 14px 22px 14px;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  color: #fff;
+  transition: .3s;
+}
+.block-texte_image_right .block-bouton a i {
+  margin-right: 5px;
+}
+.block-texte_image_right .block-bouton a + a {
+  margin-left: 26px;
+}
+.block-texte_image_right .block-bouton a:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+.block-texte_image_right .block-images .block-image + .block-image {
+  margin-top: 35px;
+}
+@media (max-width: 1199.98px) {
+  .block-texte_image_right {
+    display: block !important;
+    height: auto !important;
+    padding: 30px !important;
+  }
+  .block-texte_image_right .row {
+    display: block !important;
+  }
+  .block-texte_image_right .block-contenu {
+    padding: 0 0 30px;
+    width: unset !important;
+    height: auto !important;
+  }
+  .block-texte_image_right .block-bouton {
+    position: relative !important;
+    bottom: 0 !important;
+  }
+  .block-texte_image_right .block-bouton .c_bouton {
+    margin-top: 15px !important;
+  }
+}
+/* LESS_SPECIFIC : 'texte_image_left', #79 */
+#block-79 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* LESS_SPECIFIC : 'texte_image_right', #81 */
+#block-81 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* LESS_SPECIFIC : 'texte_image_left', #80 */
+#block-80 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

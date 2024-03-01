@@ -1,0 +1,275 @@
+﻿#admin_popup {
+  /* COULEURS */
+  /*
+Sont définie en global, parématrables dans l'admin :
+- main_color_1
+- main_color_2
+*/
+  /* RESPONSIVE */
+  /* je sete des variale en utilisant celles de bootstrapo */
+  /* HEADEER */
+  /* couleur des textes */
+  /* Les chartes ont souvent 3 couleurs principales et pas 2 */
+  /* Maintenant on peut, à partir de ces 3 couleurs, définir les couleurs utilisées sur les différences composants */
+  /* Section annuaire fond formulaire */
+  /* FOOTER */
+  /* block dateSide */
+}
+#admin_popup .theme2019 .in-login-form {
+  box-shadow: none;
+  border: 1px solid #E9E9E9;
+}
+#admin_popup .theme2019 .in-login-form .form-group {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 1200px) {
+  #admin_popup .theme2019 .in-login-form {
+    border: 0 none;
+    margin: 30px auto;
+  }
+}
+#admin_popup .theme2019 .na-login-socials a {
+  background-image: url("../../../../../global/images/icons/NA_connexion_icons_2019.png");
+}
+#admin_popup .theme2019 .na-login-section {
+  margin-bottom: 0;
+}
+#admin_popup .theme2019 h3 {
+  color: #626262;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+#admin_popup .theme2019 h2 {
+  color: #183354;
+  margin-bottom: 15px;
+}
+#admin_popup .theme2019 .na-login-socials li {
+  display: inline-block !important;
+}
+#admin_popup .theme2019 .rester-connecte {
+  text-transform: none;
+}
+#admin_popup .theme2019 .rester-connecte label {
+  color: #626262;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+#admin_popup .theme2019 .rester-connecte input#chk94 {
+  margin-left: 0;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+#admin_popup .theme2019 .jqueryButton,
+#admin_popup .theme2019 input[type="submit"]:not(.na-bouton),
+#admin_popup .theme2019 input[type="button"]:not(.na-bouton) {
+  text-transform: uppercase;
+  border: 0 none;
+  font-weight: bold;
+  background: #183354 !important;
+  border-color: #183354;
+  border-radius: 0;
+  color: #fff !important;
+  font-size: 14px;
+  margin: 0;
+  padding: 0px 15px;
+  border: 0 none !important;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  width: auto;
+  min-width: 200px;
+  max-width: unset !important;
+}
+#admin_popup .theme2019 .jqueryButton:hover,
+#admin_popup .theme2019 input[type="submit"]:not(.na-bouton):hover,
+#admin_popup .theme2019 input[type="button"]:not(.na-bouton):hover {
+  background: #0d1b2c;
+  text-decoration: none;
+}
+#admin_popup .theme2019 .jqueryButton .ui-button-icon-primary,
+#admin_popup .theme2019 input[type="submit"]:not(.na-bouton) .ui-button-icon-primary,
+#admin_popup .theme2019 input[type="button"]:not(.na-bouton) .ui-button-icon-primary {
+  display: none;
+}
+#admin_popup .theme2019 .jqueryButton .ui-button-text,
+#admin_popup .theme2019 input[type="submit"]:not(.na-bouton) .ui-button-text,
+#admin_popup .theme2019 input[type="button"]:not(.na-bouton) .ui-button-text {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  display: inline-block;
+}
+#admin_popup .theme2019 .na-login-inner .na-login-form-submit {
+  width: 100%;
+  min-width: 0;
+  max-width: unset;
+}
+#admin_popup .theme2019 .separator {
+  height: 12px;
+  border-bottom: 1px solid red;
+}
+#admin_popup .theme2019 .na-login-form-row.login-action {
+  margin: 0 0 20px;
+}
+#admin_popup .theme2019 .inlogin-sep {
+  height: 20px;
+  line-height: 20px;
+  clear: both;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+#admin_popup .theme2019 .inlogin-sep span {
+  display: inline-block;
+  background: #fff;
+  padding: 0 10px;
+}
+#admin_popup .theme2019 .inlogin-sep span:before {
+  content: '';
+  border-bottom: 1px solid #626262;
+  width: 120px;
+  left: calc( 50% - 60px);
+  position: absolute;
+  top: 10px;
+  z-index: -1;
+}
+#admin_popup .theme2019 .na-login-form-row.last {
+  margin-top: 20px;
+  text-decoration: underline;
+}
+#admin_popup .theme2019 .na-login-form-row.last a:not(.na-bouton) {
+  font-size: 11px;
+  color: #626262;
+}
+#admin_popup .theme2019 .na-login-inner-bottom {
+  margin-bottom: 0;
+}
+#admin_popup .theme2019 .inline-forms .libelle {
+  display: none;
+}
+#admin_popup .theme2019 .boutons {
+  padding: 0;
+  margin-top: 30px;
+}
+#admin_popup .theme2019 select,
+#admin_popup .theme2019 input[type="text"],
+#admin_popup .theme2019 input[type="number"],
+#admin_popup .theme2019 input[type="password"],
+#admin_popup .theme2019 textarea,
+#admin_popup .theme2019 .select2-container a {
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #E9E9E9;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+  padding: 12px;
+  max-width: unset !important;
+}
+#admin_popup .theme2019 select::-webkit-input-placeholder,
+#admin_popup .theme2019 input[type="text"]::-webkit-input-placeholder,
+#admin_popup .theme2019 input[type="number"]::-webkit-input-placeholder,
+#admin_popup .theme2019 input[type="password"]::-webkit-input-placeholder,
+#admin_popup .theme2019 textarea::-webkit-input-placeholder,
+#admin_popup .theme2019 .select2-container a::-webkit-input-placeholder,
+#admin_popup .theme2019 select:-ms-input-placeholder,
+#admin_popup .theme2019 input[type="text"]:-ms-input-placeholder,
+#admin_popup .theme2019 input[type="number"]:-ms-input-placeholder,
+#admin_popup .theme2019 input[type="password"]:-ms-input-placeholder,
+#admin_popup .theme2019 textarea:-ms-input-placeholder,
+#admin_popup .theme2019 .select2-container a:-ms-input-placeholder,
+#admin_popup .theme2019 select::placeholder,
+#admin_popup .theme2019 input[type="text"]::placeholder,
+#admin_popup .theme2019 input[type="number"]::placeholder,
+#admin_popup .theme2019 input[type="password"]::placeholder,
+#admin_popup .theme2019 textarea::placeholder,
+#admin_popup .theme2019 .select2-container a::placeholder {
+  content: attr('data-holder');
+  color: #626262;
+  top: 15px;
+}
+@media (min-width: 768px) {
+  #admin_popup .theme2019 .inline-forms {
+    display: flex;
+  }
+  #admin_popup .theme2019 .inline-forms form {
+    flex: 1 auto;
+    margin: 0 5px;
+    margin-top: 0 !important;
+  }
+}
+#admin_popup .theme2019 .molbilite_add_form select,
+#admin_popup .theme2019 .molbilite_add_form input[type="text"],
+#admin_popup .theme2019 .molbilite_add_form input[type="password"] {
+  max-width: 300px !important;
+}
+#admin_popup .theme2019 .molbilite_add_form .jqueryButton {
+  height: 50px;
+  line-height: 50px;
+}
+#admin_popup .theme2019 .molbilite_add_form .jqueryButton .ui-button-text {
+  height: 50px;
+  line-height: 50px;
+}
+#admin_popup .theme2019 .rech_as_no .tableau_formulaire tr {
+  margin-bottom: 8px;
+}
+#admin_popup .theme2019 .rech_as_no .libelle {
+  background: #fff;
+  font-size: 14px;
+  color: #626262;
+  vertical-align: top;
+  padding-left: 15px !important;
+  text-align: left;
+  width: 126px;
+  line-height: 35px;
+}
+#admin_popup .theme2019 .rech_as_no select,
+#admin_popup .theme2019 .rech_as_no input[type="text"],
+#admin_popup .theme2019 .rech_as_no input[type="password"] {
+  width: auto;
+  height: 35px;
+  line-height: 35px;
+  padding: 8px;
+}
+#admin_popup .theme2019 .rech_as_no form {
+  overflow: hidden;
+}
+#admin_popup .theme2019 .in-login-form .na-login-section label,
+#admin_popup .theme2019 .in-login-form .na-login-section a {
+  font-size: 12px !important;
+  white-space: nowrap;
+}
+#admin_popup .inscription_btn_submit:not(.not-default) {
+  /* Exceptions, default use .not-default */
+  text-transform: none;
+  font-style: normal;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #fff !important;
+  transition: all ease-out 0.2s;
+  background: #183354;
+  border: 1px solid #183354;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin: auto;
+}
+#admin_popup .inscription_btn_submit:not(.not-default):hover,
+#admin_popup .inscription_btn_submit:not(.not-default):focus {
+  filter: grayscale(50%);
+}

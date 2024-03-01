@@ -1,0 +1,7 @@
+.list_articles.liste .article .container .contentText {
+  min-height: 70px;
+  display: block;
+}
+.list_articles.liste .article .container:hover .readMore {
+  color: #ff5640;
+}

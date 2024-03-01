@@ -1,0 +1,585 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+
+    <title> Association des Anciens Elèves de l'ESIEE | Administration du site	</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <link rel="SHORTCUT ICON" href="../favicon-1.ico?v=20220809_20240122-1"><link type="text/css" rel="stylesheet" href="../global/css/pagination.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/css/keywords.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/css/jquery.autocomplete.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/css/jquery-ui-2.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/css/netassoc-1.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/css/menu_admin.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/css/admin.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/css/jquery.selectMultiple.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/javascript/jquery.fancybox/jquery.fancybox-1.3.4.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/vendor/fortawesome/font-awesome-6/css/all.min.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/ressources/css/bool-slider.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/vendor/ivaynberg/select2/dist/css/select2.min-1.css?v=20240122-1_20220809">
+	<link type="text/css" rel="stylesheet" href="../global/vendorExt/jackocnr/intl-tel-input/build/css/intlTelInput.css?v=20240122-1_20220809">
+	<script type='text/javascript' src='../global/vendor/components/jquery/jquery.min-1.js'></script>
+<script type='text/javascript' src='../global/vendor/jquery/jstepper/jquery.jstepper.js'></script>
+<script>
+var jQ = jQuery.noConflict();
+var langue_selected = 'fr';
+</script>
+<script type='text/javascript' src='../global/javascript/jquery-1.7.1.min.js?v=20150430'></script>
+<script type='text/javascript' src='../global/javascript/jquery-ui-1.8.17.min-4.js?v=20150430'></script>
+
+	<script type="text/javascript">
+		var tab_const_tinymce = [];
+		tab_const_tinymce['no_asso'] = "";
+		tab_const_tinymce['no_asso_2'] = '';
+		tab_const_tinymce['no_asso_3'] = '';
+        tab_const_tinymce['MOXIMANAGER_ADMIN_GROUPE'] = 'complet';
+	</script>
+<script type='text/javascript' src='../global/vendor/getify/labjs/LAB.min-1.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/global.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/i18n/ui.datepicker-fr-1.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/jquery.timers.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/jquery.fancybox/jquery.fancybox-1.3.4.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/na-select.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/netassoc.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/ecole.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/common.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/md5.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/famille.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/calques.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/jquery.selectMultiple.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/jquery.eventTimeout.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/AjaxHelper.class.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/vendorExt/tinymce/tinymce.jquery-1.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/tinymceParams.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../ressources/javascript/tinymceParams.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/tinymceInit.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/javascript/jquery.actual.min.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/ressources/javascript/in_100.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/vendor/ivaynberg/select2/dist/js/select2.min-1.js?v=20240122-1_20220809'></script>
+	<script type='text/javascript' src='../global/vendorExt/jackocnr/intl-tel-input/build/js/intlTelInput.js?v=20240122-1_20220809'></script>
+	<script type="text/javascript">
+
+    function fancybox_onclick(elem) {
+	    elem = $(elem);
+	    if (!elem.data("fancybox")) {
+	        elem.data("fancybox", true);
+	        elem.fancybox();
+	        elem.fancybox().trigger('click');
+	    }
+    return false;
+    }
+
+	$(document).ready(function(){
+		$("select[multiple]").not(".doNotTransform").selectMultiple();
+		$('.fancypic').fancybox();
+	});
+
+</script>
+
+</head>
+<body>
+  <div id="admin">
+   <div id="main-navbar-collapse" class="collapse navbar-collapse main-navbar-collapse">
+    <a href="main.php.html?base=100" id="logo_admin">
+        <img src="../ressources/temp/images/100_150x150_734244616_assoc-nlogo.png?v=20240122-1_20220809">
+    </a>
+</div>
+
+<div id="main-subtopbar">
+    <a href="../index.htm" class="admin-retoursite"> <i class="fas fa-chevron-left"></i> Retour au site</a>
+    <h2 class="titre_pages color_main_color_2">Administration du site</h2>
+</div>
+<div class="erreur-in-login"></div><div class="erreur-in-login-100"></div>
+<link rel="stylesheet" type="text/css" href="../ressources/temp/cache/less/cache/na_652853fb462c2e7756e7d455224a9abe8450f32c.css?v=1">
+
+
+
+        
+    
+            <div class="clearfix" style="width:100%; clear: both; "></div>
+    
+
+    
+        <div class="theme2019">
+
+                <form method="post" name="formulaire_login1" class="formulaire" action="">
+
+        
+        
+            <input type="hidden" name="mail_id_offre" value="">
+        <input name="url" type="hidden" id="url" value="">
+        <input name="pass" type="hidden" id="pass" value="">
+        <input name="session" type="hidden" id="session" value="">
+        <input name="challenge" type="hidden" id="challenge" value="">
+        <input name="token" type="hidden" id="token" value="">
+        <input name="providerName" type="hidden" id="providerName" value="">
+        <input name="login_from_popup_agenda" type="hidden" id="login_from_popup_agenda" value="">
+                		
+        <input name="password_c" type="hidden" value="">
+            
+                    <style type="text/css">
+
+                .article .na-login-socials h2, #tinymce .na-login-socials h2, .na-login-socials h2 {
+                    border: 0 none !important;
+                    border-bottom: 0 none rgba(0, 0, 0, 0) !important;
+                }
+
+                .article .na-login-socials li, #tinymce .na-login-socials li, .na-login-socials li {
+                    margin: 0 !important;
+                    background: rgba(0, 0, 0, 0) none !important;
+                    padding: 0 !important;
+                }
+
+                .in-login-form {
+                    margin-top: 20px;
+                    margin-left: 0;
+                    padding: 20px;
+                    font-weight: 400;
+                    overflow: hidden;
+                    background: #fff;
+                    max-width: 340px;
+                    margin: auto;
+		    border: 1px solid #e9e9e9;
+		    border-radius: 3px;
+	    	}
+
+                .in-login-messages {
+                    text-align: center;
+                    width: 370px;
+                    margin: auto;
+                    margin-bottom : 15px;
+                }
+
+                @media ( max-width: 560px ) {
+                    .in-login-form { box-shadow: none; padding: 0; }
+                    .ep-content-left { padding: 0 30px !important;}
+                    .in-login-messages { width: 100%; }
+                }
+
+                .in-login-form [type=text], .in-login-form [type=password] {
+                    font-size: 16px;
+                    width: 100%;
+                    padding: 5px 15px;
+		    margin: 0 0 15px;
+		    height: 50px;
+		    border-color: #e9e9e9;
+		    border-radius: 3px;
+                }
+
+                .in-login-form label {
+                    color: #555;
+                    /*font-size: 16px;*/
+                    font-weight: normal !important;
+                }
+		.in-login-form .na-bouton { padding: 14px; font-size: 16px; }
+                .in-login-form-right {
+                    float: right
+                }
+
+                .in-login-form label span {
+                    display: none
+                }
+
+                .na-login-socials {
+                    padding: 0;
+                    margin: 0;
+                    position: relative;
+                    list-style-type: none;
+                    clear: both;
+                    display: block;
+                    margin: 0 !important;
+                    overflow: hidden;
+                    text-align: justify !important;
+                }
+
+                .article .na-login-socials li, #tinymce .na-login-socials li, .na-login-socials li {
+                    float: none;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    height: 24px;
+                    width: 24px;;
+                    display: inline-block;
+                    *display: inline
+                }
+
+                .na-login-socials a {
+                    margin: 0 auto;
+                    overflow: hidden;
+                    display: inline-block;
+                    width: 24px !important;
+                    height: 24px !important;
+                    border-radius: 0 !important;
+                    text-decoration: none !important;
+                    color: #000 !important;
+                    background-image: url('../global/images/icons/NA_connexion_icons.png');
+                    background-color: rgba(0, 0, 0, 0) !important;
+                }
+
+                .na-login-socials a.icon1 {
+                    background-position: 0 0;
+                }
+
+                .na-login-socials a.icon2 {
+                    background-position: -24px 0;
+                }
+
+                .na-login-socials a.icon3 {
+                    background-position: -48px 0;
+                }
+
+                .na-login-socials a.icon4 {
+                    background-position: -72px 0;
+                }
+
+                .na-login-socials a.icon5 {
+                    background-position: -96px 0;
+                }
+
+                .na-login-socials a.icon6 {
+                    background-position: -120px 0;
+                }
+
+                .right {
+                    float: right;
+                }
+
+                .left {
+                    float: left;
+                }
+		.connection-submit {
+		   border-radius: 3px;	
+                    background: #183354 ;
+                    border-color: #183354;
+		}
+		.na-login-form-submit {
+		 
+ 		   -webkit-appearance: none;
+		   border-radius: 0;
+		   border-radius: 3px;	
+	     	   background: transparent;
+			text-align: center;
+                    width: 100% !important;
+                    display: block;
+                    text-transform: uppercase;
+                    border: 0 none !important;
+                    font-weight: bold;
+                    color: #fff !important;
+                    font-size: 14px;
+                    margin: 0;
+                    padding: 0;
+                    border: 0 none;
+                    height: 40px;
+                    line-height: 40px;
+                    min-width: 200px;
+		    max-width: unset;
+		    height: 50px;
+		    cursor: pointer;
+                }
+
+
+                .na-login-form-submit:hover {
+			color: #fff;
+			background-color: rgba(0,0,0,0.22);
+		}
+
+                .na-login h3 {
+                    font-size: 15px;
+                    margin: 0 0 8px 0;
+                    font-family: Arial, sans-serif;
+                    font-weight: normal;
+                    line-height: 0.9em;
+                }
+
+                .NA_connexion {
+                    float: right;
+                    position: relative;
+                    width: auto !important
+                }
+
+                .na-login-section {
+                    overflow: hidden;
+                    position: relative;
+                    margin-bottom: 10px
+                }
+
+                .na-login-form-row {
+                    line-height: auto;
+                    display: block;
+                    overflow: hidden;
+                    clear: both;
+                    margin-bottom: 10px;
+                    float: left;
+                    width: 263px;
+                }
+
+                .na-login-form-row label {
+                    font-size: 11px;
+                    line-height: 15px;
+                    position: relative;
+                }
+
+                .na-login-form-row label input {
+                    float: left;
+                    margin: 0 3px 0 0
+                }
+
+                .na-login-inner .na-login-section {margin-top: 0px !important;}
+
+                .na-login-section.last {
+                    margin: 0
+                }
+
+                .na-login-section.last .na-login-form-row {
+                    margin: 0;
+                    margin-top: 8px
+                }
+
+                .na-login-form-row.last {
+                    margin: 0;
+                    margin-top: 8px
+                }
+
+                .na-login-section {
+                    clear: both;
+                    width: 100%;
+                    display: block;
+                    margin-top: 20px;
+                }
+
+                .erreur-in-login {
+                    width: 370px;
+                    clear: both;
+                    margin: auto;
+                    max-width: 100%;
+                }
+
+                .erreur-in-login-100 {
+                    width: 540px;
+                    clear: both;
+                    margin: auto;
+                    max-width: 100%;
+                }
+
+                h2.titre-section {
+                    border-bottom: 0 none transparent !important;
+                    border: 0 none !important;
+                    color: #555 !important;
+                    margin: 0 0 15px !important;
+                    font-size: 15px !important;
+                    font-family: Arial, sans-serif !important;
+                    font-weight: normal !important;
+                    line-height: 1.2em !important;
+                    text-transform: uppercase !important;
+                }
+
+                .na-login-section {
+                    margin: 10px 0 15px;
+                }
+
+                /*.with-separator { padding-top: 10px; }*/
+
+                .na-login-section .row.right {
+                    float: right;
+                }
+
+                .na-login-section .row.left {
+                    float: left;
+                }
+
+                .in-login-form a.btCAS {
+                    display: block;
+                    width: 100%;
+                    background: #E5E0DF;
+                    font-size: 15px;
+                    font-family: Arial, sans-serif;
+                    color: #5e5e5e;
+                    text-align: center;
+                    border-radius: 0;
+                    -webkit-border-radius: 0;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    font-weight: bold;
+                    text-transform: none;
+                    padding-top: 3px;
+                    padding-bottom: 2px;
+                    line-height: 1.6em;
+                    text-decoration: none;
+                }
+
+                .in-login-form a:hover {
+                    text-decoration: underline;
+                }
+
+                .na-login-section .right a, .na-login-section .left a {
+                    text-transform: uppercase;
+                }
+
+                .disablepw2 {
+                    position: absolute;
+                    right: 12px;
+                    top: 20px;
+                    cursor:pointer;
+                }
+
+                .disablepw2 .fas {
+                    font-size:14px;
+                    width: auto;
+                    height: auto;
+                    margin: 0;
+                }
+                .disablepw2.active {
+                    color:#ff5640;
+                }
+                .inlogin-sep {z-index:9}
+                .inlogin-sep span{font-size:15px}
+
+		.fa-spinner { font-size: 42px !important; color:#183354 !important;}
+
+
+#admin .input-group-icon {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    display: flex;
+    height: 50px;
+    margin-bottom: 15px;
+}
+#admin .input-group-addon + .text { border-left: 0 none; border-top-left-radius: 0; border-bottom-left-radius: 0; } 
+.in-login-form .input-group-addon { display: none; }
+#admin .in-login-form .input-group-addon { display: block; }
+#admin .in-login-form  .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: #e9e9e9;
+    padding: 10px;
+    font-size: 24px;
+    width: 36px;
+}
+#admin .input-group-addon .fas { color: #999; }
+#admin .input-group-addon .fas.rond {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+#admin .titre_pages { font-size: 20px !important; padding: 20px 0;  }
+#admin .titre_pages , .admin-retoursite { color: #183354; } 
+#admin .admin-retoursite .fas {font-size: 18px !important;float: left; margin: 1px 15px 0 0; }
+#admin .admin-retoursite { margin-top: 20px; }
+#admin .in-login-form { box-shadow: 0 0 1px 0 rgba(40,41,61,0.08), 0 28px 40px 0 rgba(96,97,112,0.16) !important; }
+
+.bloc-inscription-ajax .na-bouton {
+    margin-left: 5px;
+    padding: 6px 15px;
+}
+
+.bloc-inscription-ajax .na-bouton:hover { background-color: #183354 ; color: #fff !important; }
+
+
+#login_form_have_account form[name="formulaire_login1"]  div.in-login-form div.na-login-inner-content1 a.btCAS {
+                background-color: #ff5640 !important;
+                border-color: #ff5640 !important;
+                color: #fff !important;
+             }
+
+
+
+
+		</style>
+        
+        <script>
+        $(document).ready(function() {
+            $('.disablepw2').click(function() {
+                var inputpw = $(this).parent().find('[name=pswd_s]')
+                if (inputpw.prop('type') == 'password') {
+                    inputpw.prop('type', 'text');
+                    $(this).addClass("active");
+                } else {
+                    inputpw.prop('type', 'password');
+                    $(this).removeClass("active");
+                }
+            });
+        });
+        </script>
+
+                    <div class="in-login-form">
+                <div class="na-login-inner-loader1" style="display: none;">
+                    <div style="text-align: center;"><img src="../global/images/loading.gif" alt="Chargement..."></div>
+                </div>
+                <div class="connection-submit"></div>
+                <div class="na-login-inner-content1">
+                
+            
+                                <h2 class="titre-section">
+                                            Connexion
+                     </h2>
+                <div class="container-form">
+                    <div class="form-group">
+                    	<div class="input-group-icon">
+			<div class="input-group-addon"><i class="fas fa-user rond"></i></div>
+                        <input type="text" class="text" name="login_s" value="" id="logins" placeholder="Identifiant">
+                    </div>
+                    </div>
+                    <div class="form-group" style="position:relative;">
+	<div class="input-group-icon">
+			<div class="input-group-addon"><i class="fas fa-key"></i></div>
+
+                        <input type="password" class="text" name="pswd_s" id="loginpass" placeholder="Mot de passe" syle="padding-right: 35px;">
+                        
+                    </div>
+                    </div>
+                </div>
+
+                <div class="na-login-section" style="display: flex;justify-content: space-between;align-items: center;">
+                                            <label style="font-size:13px">
+                            <input type="checkbox" name="setcookie" id="setcookie" value="true">
+                            Rester connecté(e)
+                        </label>
+                    
+					
+
+                                    </div>
+
+                    <input style="width: 100%;margin-top: 10px;height: 40px;" type="submit" onclick="return NA_check_log(1);" class="na-bouton" name="envoi" value="    Connexion    ">
+                <div class="clearfix"></div>
+            
+                                        
+                                        
+                                        
+                                        
+
+
+                
+
+                					                
+                <div class="na-login-section" style="text-align:center; margin-bottom: 0;">
+                     
+                    
+
+                </div>
+
+                
+                
+                </div>
+            </div>
+            </form>
+</div>
+
+
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,269 @@
+/* COULEURS */
+/*
+Sont définie en global, parématrables dans l'admin :
+- main_color_1
+- main_color_2
+*/
+/* RESPONSIVE */
+/* je sete des variale en utilisant celles de bootstrapo */
+/* HEADEER */
+/* couleur des textes */
+/* Les chartes ont souvent 3 couleurs principales et pas 2 */
+/* Maintenant on peut, à partir de ces 3 couleurs, définir les couleurs utilisées sur les différences composants */
+/* Section annuaire fond formulaire */
+/* FOOTER */
+/* block dateSide */
+@media (max-width: 767.98px) {
+  .page-blocks .page-block.block-titre_text_cta,
+  .page-blocks .page-block.block-image_link,
+  .page-blocks .page-block.block-vignette {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .page-blocks .nogutters {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /*
+  .page-blocks .nogutters:first-child {
+     padding-left:15px !important;
+  }
+  .page-blocks .nogutters:last-child {
+     padding-right:15px !important;
+  }
+*/
+}
+.page-block .contenu_static a,
+.page-block .block-contenu p a {
+  color: #ff5640 !important;
+  text-decoration: underline !important;
+}
+.page-block .contenu_static a:hover,
+.page-block .block-contenu p a:hover {
+  text-decoration: none !important;
+}
+/* LESS_COMMON : 'empty' */
+@media (max-width: 767.98px) {
+  .page-blocks .page-block.block-titre_text_cta,
+  .page-blocks .page-block.block-image_link,
+  .page-blocks .page-block.block-vignette {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .page-blocks .nogutters {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /*
+  .page-blocks .nogutters:first-child {
+     padding-left:15px !important;
+  }
+  .page-blocks .nogutters:last-child {
+     padding-right:15px !important;
+  }
+*/
+}
+.page-block .contenu_static a,
+.page-block .block-contenu p a {
+  color: #ff5640 !important;
+  text-decoration: underline !important;
+}
+.page-block .contenu_static a:hover,
+.page-block .block-contenu p a:hover {
+  text-decoration: none !important;
+}
+/* LESS_COMMON : 'vignette' */
+.block-vignette a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.block-vignette .block-image {
+  border: 2px solid #f1f1f1;
+  border-bottom: 0 none;
+  display: block;
+  position: relative;
+}
+.block-vignette .block-image img {
+  width: 100%;
+  height: auto;
+}
+.block-vignette .block-image:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ff5640;
+  opacity: 0;
+  transition: opacity .3s;
+}
+.block-vignette .block-image i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 85px;
+}
+.block-vignette .block-image .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.block-vignette .block-contenu {
+  display: block;
+  min-height: 150px;
+  padding: 15px;
+  border-width: 0 2px 2px;
+  border-style: solid;
+  border-color: #f1f1f1;
+  text-align: center;
+}
+.block-vignette .block-contenu .content-titre {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 6px 0 15px;
+}
+.block-vignette .block-contenu .content-contenu {
+  display: block;
+}
+.block-vignette .block-contenu p a {
+  display: inline;
+}
+.block-vignette .block-contenu .block-bouton {
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 50px;
+  margin-top: 15px;
+  border: 1px solid #fff;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0;
+  background: #ff5640;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: .3s;
+}
+@media (max-width: 767px) {
+  .block-vignette .block-contenu .block-bouton {
+    height: auto;
+    line-height: 1.6em;
+  }
+}
+.block-vignette .block-contenu .block-bouton a {
+  display: block;
+  padding: 0 37px;
+  transition: .3s;
+}
+.block-vignette .block-contenu .block-bouton a i {
+  margin-right: 5px;
+}
+.block-vignette .block-contenu .block-bouton .c_bouton {
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  min-height: 50px;
+}
+@media (max-width: 767px) {
+  .block-vignette .block-contenu .block-bouton .c_bouton {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+.block-vignette .block-contenu .block-bouton .c_bouton:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+.block-vignette .block-image:before {
+  background: #535b6a;
+  opacity: 0.7;
+}
+.block-vignette a:hover .block-image:before {
+  background: #ff5640;
+}
+.block-vignette .block-contenu .content-contenu ul,
+.block-vignette .block-contenu .content-contenu ol {
+  list-style-position: inside;
+}
+.block-vignette .fab,
+.block-vignette .fas {
+  color: white;
+}
+/* LESS_SPECIFIC : 'empty', #63 */
+/* LESS_SPECIFIC : 'vignette', #70 */
+#block-70 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* LESS_SPECIFIC : 'vignette', #67 */
+#block-67 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* LESS_SPECIFIC : 'vignette', #72 */
+#block-72 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* LESS_SPECIFIC : 'vignette', #71 */
+#block-71 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* LESS_SPECIFIC : 'vignette', #66 */
+#block-66 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* LESS_SPECIFIC : 'vignette', #69 */
+#block-69 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

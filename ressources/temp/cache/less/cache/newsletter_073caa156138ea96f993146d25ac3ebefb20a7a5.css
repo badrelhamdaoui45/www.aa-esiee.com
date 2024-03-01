@@ -1,0 +1,91 @@
+.blockNewsletter {
+  position: fixed;
+  top: 105px;
+  z-index: 100000;
+  right: auto;
+  margin: auto;
+  left: 50%;
+}
+.blockNewsletter .email_nl {
+  max-width: 100%;
+}
+.blockNewsletter .blockNewsletterContent {
+  position: relative;
+  left: -50%;
+  width: 600px;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 25px 0px #555555;
+  -moz-box-shadow: 0px 3px 25px 0px #555555;
+  box-shadow: 0px 3px 25px 0px #555555;
+  padding: 25px;
+  display: none;
+}
+.blockNewsletter .blockNewsletterContent .btClose {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  cursor: pointer;
+}
+.blockNewsletter .blockNewsletterContent .btClose i.fas {
+  font-size: 24px;
+}
+.blockNewsletter .blockNewsletterContent .title {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.blockNewsletter .blockNewsletterContent .input {
+  width: 100%;
+}
+.blockNewsletter .blockNewsletterContent .input input {
+  width: 100%;
+  color: #333;
+  padding: 9px;
+  border: 1px solid #ccc;
+  margin: 0 0 15px;
+  text-align: left;
+}
+.blockNewsletter .blockNewsletterContent .input input::-webkit-input-placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+.blockNewsletter .blockNewsletterContent .input input::-moz-placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+.blockNewsletter .blockNewsletterContent .input input:-ms-input-placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+.blockNewsletter .blockNewsletterContent .input input::placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+.blockNewsletter .blockNewsletterContent .description_nl {
+  margin-bottom: 10px;
+}
+.blockNewsletter .blockNewsletterContent .gcaptcha {
+  margin: 0 0 15px;
+  text-align: center;
+}
+.blockNewsletter .blockNewsletterContent .gcaptcha .g-recaptcha {
+  margin: auto;
+  display: inline-block;
+}
+.blockNewsletter .blockNewsletterContent .submit {
+  width: 100%;
+  text-align: center;
+}
+.blockNewsletter .blockNewsletterContent .submit input {
+  background: #ff5640;
+  border: 0;
+  padding: 10px 20px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.blockNewsletter .blockNewsletterContent .inscription_nl-types {
+  text-align: left;
+}

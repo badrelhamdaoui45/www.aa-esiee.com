@@ -1,0 +1,106 @@
+.block_content {
+  position: relative;
+  z-index: 3;
+  padding: 30px 0px !important;
+}
+.block_content .block-titre {
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1.2;
+  padding-bottom: 15px;
+}
+.block_content .timeline {
+  position: relative;
+  max-height: 610px;
+  overflow: auto;
+}
+.block_content .tl-grid-template {
+  height: 100%;
+  display: inline-flex;
+  position: absolute;
+}
+.block_content .tl-grid-template .tl-row-template {
+  width: 50px;
+  border-left: 1px solid #ccc;
+}
+.block_content .tl-grid-template .tl-row-template:last-of-type {
+  border-right: 1px solid #ccc;
+}
+.block_content .tl-header {
+  display: inline-flex;
+  position: sticky;
+  height: 100%;
+  top: 0;
+  z-index: 25;
+  background-color: #fff;
+}
+.block_content .tl-header .tl-year {
+  text-align: center;
+  position: relative;
+  border-left: 1px solid #ccc;
+  width: 50px;
+}
+.block_content .tl-header .tl-year:last-of-type {
+  border-right: 1px solid #ccc;
+}
+.block_content .tl-row {
+  margin-bottom: 5px;
+  position: relative;
+  overflow: hidden;
+  height: 50px;
+}
+.block_content .tl-row .tl-item {
+  font-size: 16px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+.block_content .tl-row .tl-item .lt_item-background {
+  opacity: 0.75;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.block_content .tl-row .tl-item .lt_item-libelle {
+  padding: 15px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  position: sticky;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.block_content .tl-row .tl-item .lt_item-libelle p {
+  min-width: 35px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.block_content .tl-header + .tl-row {
+  margin-top: 30px;
+}
+.block_content .tl-tooltip {
+  position: absolute;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0px 0 10px -3px #cccccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.block_content .tl-tooltip::after {
+  content: '';
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: -1;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  margin-top: -4px;
+  margin-left: -4px;
+}
+.block_content .tl-tooltip .tl-tooltip-content {
+  background-color: #fff;
+}

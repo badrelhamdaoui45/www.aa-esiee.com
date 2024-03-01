@@ -1,0 +1,96 @@
+.list_articles.vignette {
+  overflow: hidden;
+}
+.list_articles.vignette .article {
+  height: auto;
+}
+.list_articles.vignette .article .container {
+  height: auto;
+}
+.list_articles.vignette .article .title {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.list_articles.vignette .article .title,
+.list_articles.vignette .article .contentText {
+  display: block !important;
+  color: inherit;
+}
+.list_articles.vignette .article:hover .title,
+.list_articles.vignette .article:hover .contentText {
+  color: #183354;
+}
+.list_articles.liste .article {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: block;
+  width: auto;
+}
+.list_articles.liste .article .model-ratio-image {
+  width: 24%;
+  height: auto;
+  float: left;
+}
+.list_articles.liste .article .model-ratio-image .containerImg {
+  padding-bottom: 100%;
+}
+.list_articles.liste .article .model-ratio-image .containerImg .overlay {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+.list_articles.liste .article .model-ratio-image .containerImg .click-img .icon {
+  font-size: 36px;
+}
+.list_articles.liste .article .container {
+  width: 72% !important;
+  margin-left: 0px;
+  padding: 20px 0 0;
+  border-bottom: 0;
+}
+.list_articles.liste .article .container .date {
+  bottom: unset;
+  top: 0;
+  color: #666;
+  font-size: 13px;
+}
+.list_articles.liste .article .container .title {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.list_articles.liste .article:hover {
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+}
+.list_articles.liste .article:hover .title {
+  color: #ff5640;
+}
+.list_articles.liste .article:last-child:hover {
+  border: 1px solid transparent;
+}
+h1.mobilite-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #183354;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.mobilite-date-type {
+  font-size: 15px;
+  color: #183354;
+}
+.mobilite-date-type b {
+  margin-left: 5px;
+  display: inline-block;
+}
+.mobilite-view {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+.mobilite-auteur {
+  font-size: 18px;
+  margin-top: 8px;
+}

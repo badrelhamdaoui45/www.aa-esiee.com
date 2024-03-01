@@ -1,0 +1,194 @@
+.list_articles.vignette .article {
+  margin-bottom: 24px;
+  width: 100%;
+  border: 2px solid transparent;
+  transition: all .3s;
+}
+.list_articles.vignette .article:hover {
+  border: 2px solid #183354;
+}
+.list_articles.vignette .article .model-ratio-image.photo {
+  overflow: hidden;
+}
+.list_articles.vignette .article .model-ratio-image.photo:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent url('../../../../../global/module/mobilites/ressources/images/bg.jpg');
+  background-size: 100% auto;
+  z-index: 1;
+  -webkit-filter: blur(8px);
+}
+.list_articles.vignette .article .model-ratio-image.photo img {
+  width: auto;
+  height: 100%;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+.list_articles.vignette .article:hover .model-ratio-image .click-img:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #183354;
+  opacity: 0.5;
+  z-index: 1;
+}
+.list_articles.vignette .article .model-ratio-image .overlay {
+  position: absolute;
+  display: block;
+  padding: 15px;
+  color: #fff;
+  border: 2px solid #fff;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: top .3s, opacity .3s;
+  font-weight: bold;
+  z-index: 2;
+}
+.list_articles.vignette .article:hover .model-ratio-image .overlay {
+  top: 50%;
+  opacity: 1;
+}
+.list_articles.vignette .article .container {
+  position: relative;
+  height: 165px;
+  width: 100%;
+  background: #f7f7f7;
+  padding: 40px 25px 25px;
+  overflow: hidden;
+}
+.list_articles.vignette .article .container .date {
+  color: #183354;
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-size: 14px;
+  z-index: 10;
+  text-align: left;
+}
+.list_articles.vignette .article .container .date a {
+  text-decoration: none;
+}
+.list_articles.vignette .article .container .date i.fas,
+.list_articles.vignette .article .container .date i.far {
+  display: none;
+}
+.list_articles.vignette .article .container .title {
+  display: none;
+}
+.list_articles.vignette .article .container .contentText {
+  font-size: 15px;
+  line-height: 1.2em;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+}
+.list_articles.vignette .article .container .precontentText {
+  margin-bottom: 12px;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+}
+.list_articles.vignette .article .container .content {
+  text-align: left;
+}
+.list_articles.vignette .article .container .readMore {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: #ff5640;
+  z-index: 2;
+  text-decoration: none;
+}
+.list_articles.vignette .article .container .readMore i.fas {
+  display: none;
+}
+.list_articles.vignette .article .container .readMore .libel {
+  display: none;
+}
+.list_articles.vignette .article .card-footer {
+  background: #f7f7f7;
+  padding: 15px 25px ;
+  position: relative;
+}
+.list_articles.vignette .article .card-footer:before {
+  content: "";
+  height: 1px;
+  background: #b1b1b1;
+  width: calc(100% - 50px);
+  position: absolute;
+  top: 0;
+  left: 25px;
+}
+.list_articles.vignette .article .card-footer .card-icon {
+  color: #b1b1b1;
+  font-size: 13px;
+  min-height: 16px;
+}
+.list_articles.vignette .article .card-footer .card-icon .fas {
+  vertical-align: middle;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.list_articles.vignette .article .model-ratio-image {
+  padding-bottom: 40px;
+}
+.list_articles.vignette .article .card-label {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  z-index: 9;
+  height: 40px;
+}
+.list_articles.vignette .article .card-label .btn {
+  height: 40px;
+  background: #183354;
+  border-color: #183354;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 0;
+}
+.list_articles.vignette .article.legacy .model-ratio-image {
+  padding-bottom: 0;
+}
+.list_articles.vignette .article.legacy .card-label {
+  position: absolute;
+  right: 25px;
+  width: calc(100% - 50px);
+  top: 25px;
+  text-align: right;
+  z-index: 9;
+}
+.list_articles.vignette .article.legacy .card-label .btn {
+  background: #183354;
+  border-color: #183354;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
+}
+@media (max-width: 992px) {
+  .list_articles.vignette {
+    text-align: center;
+  }
+  .list_articles.vignette .article {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+}

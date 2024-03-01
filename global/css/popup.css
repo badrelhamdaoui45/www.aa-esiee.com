@@ -1,0 +1,62 @@
+#admin_popup {
+	color: #333;
+	margin: 5px;
+	padding: 0px;
+	font-size: 11px;
+	overflow: auto;
+	font-family: verdana, sans-serif;
+	min-width: initial;
+	background: none;
+}
+
+#admin_popup  a {color: #333;  text-decoration: none;}
+#admin_popup  a:hover {color: #000}
+#admin_popup  li:hover {background-color: #DDD}
+#admin_popup  ul { list-style-type: none;padding:0;margin:10px 0 0;width: 100%;}
+#admin_popup  li {overflow: hidden; padding: 3px 0 0 0;position: relative;}
+#admin_popup .icon_rech {width:30px; text-align: center; float: left;margin-top: 5px}
+#admin_popup .icon_rech img{width:15px; }
+#admin_popup .titre_rech  { color: #666; font-size: 18px;padding: 0 0 5px 0;  margin: 10px 0 0; padding: 0 3px; text-align: center}
+#admin_popup .np_rech  {}
+#admin_popup .np_rech .np_a {   float: left;width: 305px; margin-left: 0;}
+#admin_popup .np_rech .np_a a { display: block}
+#admin_popup .np_rech .np_a a img {vertical-align: middle; margin-right: 10px; width: 30px; }
+#admin_popup .np_rech .np_submit{float: right; margin-right: 20px;margin-top: 5px;}
+#admin_popup .np_submit_conjoint{float: right; margin-right: 20px;margin-bottom: 10px;}
+#admin_popup .np_rech .np_conjoint {margin-left: 0px; padding: 5px 0 0 10px;float: right; width: 90%}
+#admin_popup .np_rech .np_conjoint:hover {background-color: #CCC}
+#admin_popup .tableau_formulaire {padding: 0; }
+#admin_popup .tableau_formulaire td {padding: 0; }
+#admin_popup .tableau_formulaire .libelle {padding-right: 5px; /*background-color: #666*/ }
+#admin_popup .tableau_formulaire input { font-size:16px; padding: 2px 5px;border: 1px solid #666; color: #000; font-family: verdana, sans-serif}
+#admin_popup .boutons  {text-align: left; margin: 0 0 0 2px; padding-left : 145px !important} 
+#admin_popup .boutons input { border: auto;margin: 2px  0 0 5px; padding: 0 10px }
+#admin_popup .en_cp { display: block;font-weight: bold;}
+
+#admin_popup #password .liste_personnes { padding: 0; list-style-type: none; 
+				  margin: 10px 0 0; 
+				  max-height: 230px; 
+				  overflow: hidden;
+				  overflow-y: auto
+}
+#admin_popup #password .liste_personnes li { padding: 5px;  margin: 0 0 5px;}
+#admin_popup .tableau_formulaire .libelle 
+{
+        width:140px;
+        padding-right: 10px;
+}
+#admin_popup .tableau_formulaire td {padding:0}
+#admin_popup .tableau_formulaire .valeur {padding:0}
+#admin_popup nput.text, #admin_popup select.select, #admin_popup textarea.textarea 
+{
+        padding: 2px 5px;
+        border:1px solid #888;
+}
+#admin_popup .tableau_formulaire
+{
+	margin: 12px 0;
+}
+#admin_popup .tableau_formulaire textarea
+{
+	 font-size:16px;
+}

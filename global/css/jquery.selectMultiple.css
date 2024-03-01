@@ -1,0 +1,122 @@
+.transformSelect {
+	width : 200px;
+}
+
+.multipleSelect {
+    overflow-y: scroll;
+    border-style : solid;
+    border: 1px solid #C3C3C3;
+    width : auto;
+    height : 100px;
+    overflow-x : hidden;
+    position: relative;
+    background-color: white;
+}
+
+.optGroupList div {
+	margin-left : 16px;
+}
+
+.optGroupList .optGroupDisplay {
+	margin-left : 0px;
+}
+
+.subOptions {
+	padding-right : 5px;
+}
+
+.multipleSelect .ui-state-hover { cursor: pointer; }
+
+.optGroupDisplay.selected, .nOption.selected {
+	background-color : #0A5099;
+	color : #FFFFFF;
+}
+
+.semiselected {
+	background-color : #248EF1;
+	color : #FFFFFF;
+}
+
+.nOption label {
+	font-weight: normal;
+	position: relative;
+	top: 1px;
+}
+
+.nOption input {
+	position : relative;
+	top : 0;
+}
+
+.nOption {
+	position: relative;
+}
+
+.optGroupDisplay:hover, .nOption:hover
+{
+	background-color: #10AAFF;
+	color: white;	
+}
+
+.multipleSelect.block
+{
+	overflow: initial !important;
+	overflow-x: hidden;
+}
+
+.multipleSelect img.unfold
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 5;
+}
+
+table.options_left
+{
+	float: left;
+	width: 50%;
+}
+
+table.options_right
+{
+	float: right;
+	width: 50%;
+}
+
+table.options_right .nOption, table.options_left .nOption
+{
+	width: 100%;
+}
+
+.multipleSelect.block .nOption input
+{
+	top: 2px;
+}
+
+.multipleSelect.block .optGroupList
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.multipleSelect .input-search
+{
+	margin: 3px;
+	background: none;
+	padding-right: 25px;
+	padding-left: 2px;
+}
+
+.multipleSelect .input-search.loading
+{
+	background:  url(/global/vendor/ivaynberg/select2/select2-spinner.gif) no-repeat right;
+	background-size:20px 20px;
+}
+
+.multipleSelect .img-search
+{
+	vertical-align: sub;
+	width: 16px;
+}
+	

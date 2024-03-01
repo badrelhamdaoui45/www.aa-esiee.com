@@ -1,0 +1,14 @@
+.show_tags{
+	padding-top:10px;
+	clear: both;
+}
+
+.show_tags a{
+	background-image:url(../images/fond_tag.png);
+	background-repeat:no-repeat; 
+	padding:3px 3px 4px 13px; 
+	border-right:1px solid #C8D6F2; 
+	color:#333333; 
+	margin-left:5px; 
+	border-radius:0 4px 4px 0;
+}

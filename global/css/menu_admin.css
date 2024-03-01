@@ -1,0 +1,129 @@
+/* menu_admin.css */
+#menuAdmin 
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border_box;
+	border-box: box-sizing;
+
+	margin : 0 auto;
+	font-size : 0.9em;
+	border: solid 1px;
+	overflow:auto;
+	width: 100%
+}
+#menuAdmin a 
+{
+	cursor : default;
+	z-index : 1;
+}
+#menuAdmin a.lien 
+{
+	cursor : pointer;
+}
+#menuAdmin a.lien span 
+{
+	text-decoration : underline;
+}
+#menuAdmin a.lien:hover span 
+{
+	text-decoration : none;
+}
+#menuAdmin ul 
+{ /* toutes les listes */
+	padding : 0;
+	margin : 0;
+	list-style : none;
+	line-height : 1;
+	z-index : 2;
+}
+#menuAdmin a 
+{
+	display : block;
+	width : 150px;
+	text-decoration : none;
+	position : relative;
+	color : #FFF;
+}
+#menuAdmin a img 
+{
+	border : none;
+	position : absolute;
+	top : 0.45em;
+	right : 0.2em;
+}
+#menuAdmin li 
+{ /* tous les éléments li de toutes les listes */
+	float : left;
+	width : 150px;
+	z-index: 2;
+}
+#menuAdmin a.niveau1 {
+	text-align : center;
+	padding : 0.9em 0;
+	height:2.1em;
+	width : 100%;
+	border:0;
+}
+#menuAdmin li ul 
+{ /* liste de niveau 2 */
+	position : absolute;
+	width : 152px;
+	display : none;
+	line-height : 20px;
+	border-bottom : solid 1px;
+	border-top : solid 1px;
+}
+#menuAdmin li ul a 
+{
+	padding : 0;
+	border-left : solid 1px;
+	border-right : solid 1px;
+}
+#menuAdmin a.premier 
+{
+}
+#menuAdmin li ul a span 
+{
+	padding : 0 0 0 0.5em;
+}
+#menuAdmin li.aucun, #menuAdmin li.aucun a 
+{
+	width : 100%;
+}
+#menuAdmin li ul ul 
+{ /* listes de niveau 3 */
+	margin : -21px 0 0 151px;
+}
+#menuAdmin li:hover ul ul, #menuAdmin li.sfhover ul ul 
+{
+	display : none;
+}
+#menuAdmin li:hover ul, #menuAdmin li li:hover ul,
+#menuAdmin li.sfhover ul, #menuAdmin li li.sfhover ul 
+{
+	display : block;
+}
+#menuAdmin #lib_menuAdmin{
+	clear : left;
+	margin : 0;
+	padding : 0.3em 1.5em;
+	font-size : 0.8em;
+}
+
+/******************* COULEURS *******************/
+
+#menuAdmin, #menuAdmin a, #menuAdmin a.premier,
+#menuAdmin li ul a, #menuAdmin li ul 
+{
+	border-color : #000;
+	background-color : #2578B5;
+}
+#menuAdmin a:hover, #menuAdmin a.courant 
+{
+	background-color : #75A9D0;
+}
+#menuAdmin #lib_menuAdmin 
+{
+	color : #ccc;
+	background-color : #000;
+}

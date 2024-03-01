@@ -1,0 +1,118 @@
+.poster_picture
+{
+	vertical-align: top;
+}
+
+.poster_name {
+	text-align:left;
+    font-size: 16px;
+	font-weight: normal;
+    line-height: 1;
+}
+.poster_name a {
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+.poster_comment, span.commentText
+{
+	font-size:13px;
+	color: #000000;
+/*	padding:5px;*/
+	vertical-align:top;
+	text-align:left;
+}
+
+.commented_item
+{
+	font-size:12px;
+	font-style: italic;
+	color: #808080;
+}
+
+.commented_item_title
+{
+	font-size:12px;
+	font-weight: bold;
+	color: #808080;
+}
+
+.td_comment_date {
+    padding-right: 10px !important;
+}
+
+.comment_date
+{
+	font-size:14px;
+	color: #808080;
+	width: 100px;
+}
+
+a.commentDeleteLink {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    display: none;
+}
+
+a.commentDeleteLink img {
+	display: block;
+}
+
+.small_link
+{
+	font-size: 10px;
+	/*font-style: italic;*/
+	color:#537888;
+}
+
+.current.PublishItemType {
+	font-weight: bold;
+}
+
+.PublishItemType {
+	cursor: pointer;
+}
+
+div.commentArea {
+	position: relative;
+}
+
+.na_comment {
+/*	border-color: #989898;
+    border-style: solid none none none;*/
+    border-width: 1px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+span a.small_link {
+	padding-right: 10px;
+}
+
+td.poster_picture {
+	width: 60px;
+    text-align: left;
+}
+
+.wallPict img {
+    top:auto;
+}
+
+.commentFormTxt, .commentFormUrl {
+	font-size: 11px;
+	color: #000;
+}
+
+.invitePublish.disabled {
+	background: #F5F5F5;
+}
+
+.form_area
+{
+	border-top: 1px solid lightgrey;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.comments-head h4 { line-height: 1.2; font-size: 22px; padding-bottom: 11px; border-bottom: 1px solid #eee; }
